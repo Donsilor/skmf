@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的专家库</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/5_wdzjk.css" />
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>
+	</head>
+	<body>
+	<!--通用头部-->
+		<div class="header">
+			<div class="header_t">
+				<div class="header_tr wrapper">
+					<ul>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">我的行程</a></li>
+						<li>
+							<div class="sel-boxone sele_head" id="Tmcselect01">
+								<input for="label" type="text" readonly value="Ryan的个人中心">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header_b wrapper">
+				<div class="header_L">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" /></a>
+					</div>
+					<div class="addr">
+						<p>深圳</p>
+					</div>
+				</div>
+				<div class="header_R">
+					<div class="menu">
+						<ul>
+							<li><a href="#">活动</a></li>
+							<li><a href="#">场地</a></li>
+							<li><a href="#">专题</a></li>
+							<li><a href="#">专家</a></li>							
+							<div class="clear"></div>
+						</ul>
+						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="搜索" />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+			
+	<!--我的活动中心主体-->
+		<div class="wdhdzx_main wrapper">
+			<div class="table">
+				<table>
+					<tr>
+						<td class="tit">活动城市：</td>
+						<td>
+							<div class="input1">
+								<div class="sel-boxone sele" id="Tmcselect02">
+									<input for="label" type="text" readonly value="全国">
+									<ul class="sel-list">
+										<li data="">广东省</li>
+										<li data="3">福建省</li>
+										<li data="4">浙江省</li>
+										<li data="5">江苏省</li>
+									</ul>
+								</div>
+							</div>				
+						</td>
+					</tr>
+					<tr>
+						<td class="tit">时间范围：</td>
+						<td class="time">
+							<div class="begint"><input type="text" /> </div>
+							<div class="line">----</div>
+							<div class="endt"><input type="text" /> </div>
+							<span>不限 </span> <span>一天内</span>  <span> 一周内</span>   <span> 一月内</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="tit">所属行业：</td>
+						<td>
+							<div class="input2">
+								<div class="sel-boxone sele" id="Tmcselect03">
+									<input for="label" type="text" readonly value="全国">
+									<ul class="sel-list">
+										<li data="">广东省</li>
+										<li data="3">福建省</li>
+										<li data="4">浙江省</li>
+										<li data="5">江苏省</li>
+									</ul>
+								</div>
+							</div> 
+							<p class="add"><a href="#">+添加行业</a></p>
+							
+						</td>
+					</tr>
+					<tr>
+						<td class="tit">所属领域：</td>
+						<td>
+							<div class="input3">
+								<div class="sel-boxone sele" id="Tmcselect04">
+									<input for="label" type="text" readonly value="企业管理">
+									<ul class="sel-list">
+										<li data="">广东省</li>
+										<li data="3">福建省</li>
+										<li data="4">浙江省</li>
+										<li data="5">江苏省</li>
+									</ul>
+								</div>
+							</div>
+							<div class="input3">
+								<div class="sel-boxone sele" id="Tmcselect05">
+									<input for="label" type="text" readonly value="人力资源">
+									<ul class="sel-list">
+										<li data="">广东省</li>
+										<li data="3">福建省</li>
+										<li data="4">浙江省</li>
+										<li data="5">江苏省</li>
+									</ul>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="tit">专家姓名：</td>
+						<td>
+							<div class="input4"><input type="text" /> </div>
+							<p class="add"><a href="#">+选择专家</a></p>
+						</td>
+					</tr>
+					
+					<tr>
+						<td colspan="2" class="btns">
+							<div class="queery1"><a href="#">查询</a></div> 
+							<div class="queery2"><a href="#">地图定位搜索</a></div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		
+			<div class="fabuhd">
+				<div class="fabuhd01"><a href="#"><img src="images/cjzjda.fw.png" /> </a></div>
+				<div class="wdhd"><a href="#">我的专家档案</a></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+							
+		<!--活动广场-->
+		<div class="hdmc_main wrapper">
+			<div class="hdmc_L">
+			<div class="tit01"><h1>我的专家档案</h1></div>
+			<ul>
+				<li class="hdmc_cont">
+					<div class="pic">
+						<a href="#"><img src="images/zjda01.jpg" /></a>
+					</div>
+					<div class="text">
+						<h3>活动名称</h3>
+						<div class="text1">						
+							<p class="city">常驻城市</p>
+							<p class="nengli">能力类型</p>
+						</div>
+						<p class="text2">
+							活动简介活动简介活动简介活动简介
+							活动简介活动简介活动简介活动简介
+							活动简介活动简介活动简介活动简介
+							活动简介活动简介活动简介活动简介
+							活动简介活动简介活动简介活动简介
+							
+						</p>
+											
+						<div class="text3">
+							<a href="#"><p class="name">陈老师 </p></a>
+							<p class="shouji">联系方式</p>
+						</div>						
+					</div>	
+					
+					<div class="right">
+						<p class="addweixin"><a href="#">+添加微信</a></p>
+						<p class="star">★★★★★</p>
+						<div class="dingd">
+							<div class="num">
+								<p>交付数</p>
+								<span>45单</span>
+							</div>
+							<div class="rate">
+								<p>好评率</p>
+								<span>100%</span>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<p class="smallpic">
+							<a href="#"><img src="images/zjicon01.png" /> </a>
+							<a href="#"><img src="images/zjicon02.png" /> </a>
+							<a href="#"><img src="images/zjicon03.png" /> </a>
+							<a href="#"><img src="images/zjicon04.png" /> </a>
+							<a href="#"><img src="images/zjicon05.png" /> </a>
+							<a href="#"><img src="images/zjicon06.png" /> </a>
+						</p>
+						
+					</div>
+					<div class="clear"></div>
+				</li>
+				
+			<!--内容-->
+				<li class="hdmc_cont">
+					<div class="pic">
+						<a href="#"><img src="images/zjda01.jpg" /></a>
+					</div>
+					<div class="text">
+						<h3>活动名称</h3>
+						<div class="text1">						
+							<p class="city">常驻城市</p>
+							<p class="nengli">能力类型</p>
+						</div>
+						<p class="text2">
+							活动简介活动简介活动简介活动简介
+							活动简介活动简介活动简介活动简介
+						</p>
+											
+						<div class="text3">
+							<a href="#"><p class="name">陈老师 </p></a>
+							<p class="shouji">联系方式</p>
+						</div>						
+					</div>	
+					
+					<div class="right">
+						<p class="addweixin"><a href="#">+添加微信</a></p>
+						<p class="star">★★★★★</p>
+						<div class="dingd">
+							<div class="num">
+								<p>交付数</p>
+								<span>45单</span>
+							</div>
+							<div class="rate">
+								<p>好评率</p>
+								<span>100%</span>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<p class="smallpic">
+							<a href="#"><img src="images/zjicon01.png" /> </a>
+							<a href="#"><img src="images/zjicon02.png" /> </a>
+							<a href="#"><img src="images/zjicon03.png" /> </a>
+							<a href="#"><img src="images/zjicon04.png" /> </a>
+							<a href="#"><img src="images/zjicon05.png" /> </a>
+							<a href="#"><img src="images/zjicon06.png" /> </a>
+						</p>
+						
+					</div>
+					<div class="clear"></div>
+				</li>				
+			<!--内容-->
+				<li class="hdmc_cont">
+					<div class="pic">
+						<a href="#"><img src="images/zjda01.jpg" /></a>
+					</div>
+					<div class="text">
+						<h3>活动名称</h3>
+						<div class="text1">						
+							<p class="city">常驻城市</p>
+							<p class="nengli">能力类型</p>
+						</div>
+						<p class="text2">
+							活动简介活动简介活动简介活动简介							
+						</p>
+											
+						<div class="text3">
+							<a href="#"><p class="name">陈老师 </p></a>
+							<p class="shouji">联系方式</p>
+						</div>						
+					</div>	
+					
+					<div class="right">
+						<p class="addweixin"><a href="#">+添加微信</a></p>
+						<p class="star">★★★★★</p>
+						<div class="dingd">
+							<div class="num">
+								<p>交付数</p>
+								<span>45单</span>
+							</div>
+							<div class="rate">
+								<p>好评率</p>
+								<span>100%</span>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<p class="smallpic">
+							<a href="#"><img src="images/zjicon01.png" /> </a>
+							<a href="#"><img src="images/zjicon02.png" /> </a>
+							<a href="#"><img src="images/zjicon03.png" /> </a>
+							<a href="#"><img src="images/zjicon04.png" /> </a>
+							<a href="#"><img src="images/zjicon05.png" /> </a>
+							<a href="#"><img src="images/zjicon06.png" /> </a>
+						</p>
+						
+					</div>
+					<div class="clear"></div>
+				</li>
+			</ul>
+				<div class="clear"></div>
+				
+	<!--pages-->
+				<div class="pages">
+					<a href="#"><</a>
+					<a href="#"><<</a>
+					<a href="#" class="cur">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">></a>
+					<a href="#">>></a>
+				</div>				
+			</div>
+			
+			<div class="hdmc_R">
+				<div class="tit"><h3>专题名人榜</h3> </div>
+				<div class="ul">
+					<ul>
+						<li>
+							<h4>标题标题标题标题标题标题标题</h4>
+							<p><span class="num"><b>1024</b>人报名</span></p>
+						</li>
+						<li>
+							<h4>标题标题标题标题标题标题标题</h4>
+							<p> <span class="num"><b>1024</b>人报名</span></p>
+						</li>
+						<li>
+							<h4>标题标题标题标题标题标题标题</h4>
+							<p> <span class="num"><b>1024</b>人报名</span></p>
+						</li>
+						<li>
+							<h4>标题标题标题标题标题标题标题</h4>
+							<p> <span class="num"><b>1024</b>人报名</span></p>
+						</li>
+						<li>
+							<h4>标题标题标题标题标题标题标题</h4>
+							<p> <span class="num"><b>1024</b>人报名</span></p>
+						</li>
+						<li>
+							<h4>标题标题标题标题标题标题标题</h4>
+							<p> <span class="num"><b>1024</b>人报名</span></p>
+						</li>
+						<li>
+							<h4>标题标题标题标题标题标题标题</h4>
+							<p> <span class="num"><b>1024</b>人报名</span></p>
+						</li>
+						<li>
+							<h4>标题标题标题标题标题标题标题</h4>
+							<p> <span class="num"><b>1024</b>人报名</span></p>
+						</li>
+					</ul>
+				</div>
+				<div class="more"><a href="#">更多>></a></div>				
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+<!--通用底部-->
+	<div class="footer">
+		<div class="line">
+			<p>联系我们</p>
+		</div>
+		<div class="footer_b">
+			<p>139 0293 3234</p>
+			<p>邮箱：service@gojoin.cn</p>
+			<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+		</div>
+	</div>	
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+$('#Tmcselect03').input();
+$('#Tmcselect04').input();
+$('#Tmcselect05').input();
+$('#Tmcselect06').input();
+</script>	
+	</body>
+</html>

@@ -1,0 +1,47 @@
+/*****************登录主体*****************/
+.header{border-bottom: none;}
+.backgds{background: url(../images/login_bg.jpg) no-repeat center;width: 100%;height: 756px;background-size: 100% 100%;padding-top: 128px;}
+.backgds .login_main{height: 500px;margin:auto;}
+.backgds .login_main .login_L{float: left;width: 800px;}
+.backgds .login_main .login_L .biglogo img{width: 340px;height: 225px;}
+.backgds .login_main .login_L .line{width: 100%;height: 50px;padding-left: 240px;}
+.backgds .login_main .login_L .line span{width: 145px;display: inline-block;border-bottom: 1px solid #A3BB67;float: left;margin-top: 15px;}
+.backgds .login_main .login_L .line p{display: inline-block;font-size: 21px;color: #FFFF33;padding-left: 15px;font-weight: 100;}
+.backgds .login_main .login_L p{font-size: 27px;font-weight: bold;color: #fff;padding-top: 10px;}
+.backgds .login_main .login_R{float: right;}
+.backgds .login_main .login_R .login_box{height: 410px;width: 340px;background: rgba(51,51,51,0.8);border-radius: 5px;}
+.backgds .login_main .login_R .login_box .tit{font-size: 28px;color: #fff;text-align: center;padding-top: 60px;font-family: Adobe 黑体 Std;}
+.backgds .login_main .login_R .login_box .log_inp{width: 288px;height: 41px;background: #fff;border-radius: 5px;margin: auto;margin-bottom: 20px;}
+.backgds .login_main .login_R .login_box .log_inp input{width: 100%;height: 100%;color: #656565;font-size: 15px;padding-left: 5px;
+background: none;border: none;outline: none;}
+.backgds .login_main .login_R .login_box .btns{padding-left: 25px;}
+.backgds .login_main .login_R .login_box .btns>div{width: 126px;height: 41px;background: #fff;border-radius: 5px;margin-bottom: 20px;
+font-size: 16px;display: inline-block;text-align: center;}
+.backgds .login_main .login_R .login_box .btns .btn1 input{height: 100%;width: 100%;background: none;font-size: 16px;text-align: center;line-height: 41px;
+border: none;outline: none;color: #656565;}
+.backgds .login_main .login_R .login_box .btns .btn2{margin-left: 30px;}
+.backgds .login_main .login_R .login_box .btns .btn2 a{line-height: 41px;color:  #656565;display: inline-block;}
+.backgds .login_main .login_R .login_box .remb{padding-left: 85px;margin-bottom: 20px;}
+.backgds .login_main .login_R .login_box .remb span{color: #fff;font-size: 12px;}
+.backgds .login_main .login_R .login_box .remb p{font-size: 12px;display: inline-block;padding-left: 25px;}
+.backgds .login_main .login_R .login_box .remb p a{color: #137AB3;}
+.backgds .login_main .login_R .login_box .others {width: 288px;margin: 0 auto;}
+.backgds .login_main .login_R .login_box .others span{color: #fff;font-size: 16px;display: inline-block;float: left;}
+.backgds .login_main .login_R .login_box .others p{display: inline-block;}
+.backgds .login_main .login_R .login_box .others p a{display: inline-block;padding-left: 5px;}
+.backgds .login_main .login_R .login_box .others p img{width: 28px;height: 26px;}
+
+/**************注册******************/
+.zhuce_bg{background: url(../images/zhuce_bg.jpg) no-repeat center;width: 100%;height: 756px;background-size: 100% 100%;padding-top: 30px;}
+.zhuce_bg .zhuce_box{width: 970px;height: 640px;background: rgba(255,255,255,0.3);margin: auto;}
+.zhuce_bg .zhuce_box .tit{font-size: 32px;width: 907px;margin: auto;border-bottom: 3px solid #fff;color: #fff;font-family: "微软雅黑";text-align: center;
+padding: 50px 0 20px 0;}
+.zhuce_bg .zhuce_box .zhuce_table{padding-top: 50px;width: 530px;margin: auto;}
+.zhuce_bg .zhuce_box .zhuce_table td{padding-bottom: 15px;}
+.zhuce_bg .zhuce_box .zhuce_table .td_tit{font-size: 20px;color: #fff;}
+.zhuce_bg .zhuce_box .zhuce_table .td_inp div{width: 400px;height: 50px;background:#fff;border-radius: 10px;padding-left: 10px;}
+.zhuce_bg .zhuce_box .zhuce_table .td_inp div input{width: 280px;height: 26px;border: none;outline: none;margin-top: 12px;}
+.zhuce_bg .zhuce_box .zhuce_table .td_inp div a{display: inline-block;height: 50px;width: 100px;background: #FF7547;border-radius: 10px;float: right;
+color: #fff;font-size: 16px;text-align: center;line-height: 50px;}
+.zhuce_bg .zhuce_box .next{width: 200px;height: 50px;border-radius: 10px;margin: 50px auto;background: #FF6533;font-size: 20px;line-height: 50px;text-align: center;}
+.zhuce_bg .zhuce_box .next a{color: #fff;}

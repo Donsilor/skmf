@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>我的财务中心</title>
+	<link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/7_Finance.css" />
+	<script src="js/jquery-1.8.3.min.js"></script> 
+	<script src="js/accside.js"></script>
+	<script src="js/option.js"></script>
+</head>
+<body>
+	<!--通用头部-->
+	<div class="header">
+		<div class="header_t">
+			<div class="header_tr wrapper">
+				<ul>
+					<li><a href="#">APP下载</a></li>
+					<li><a href="#">我的行程</a></li>
+					<li>
+						<div class="sel-boxone sele_head" id="Tmcselect01">
+							<input for="label" type="text" readonly value="Ryan的个人中心">
+							<ul class="sel-list">
+								<li data="">效果图</li>
+								<li data="3">主材</li>
+								<li data="4">辅材</li>
+								<li data="5">软装</li>
+								<div class="clear"></div>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="header_b wrapper">
+			<div class="header_L">
+				<div class="logo">
+					<a href="#"><img src="images/logo.jpg" /></a>
+				</div>
+				<div class="addr">
+					<p>深圳</p>
+				</div>
+			</div>
+			<div class="header_R">
+				<div class="menu">
+					<ul>
+						<li><a href="#">活动</a></li>
+						<li><a href="#">场地</a></li>
+						<li><a href="#">专题</a></li>
+						<li><a href="#">专家</a></li>							
+						<div class="clear"></div>
+					</ul>
+					
+				</div>
+				<div class="search">
+					<input type="text" placeholder="搜索" />
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>			
+	</div>
+	<!--主体内容-->
+	<h1 class="wrapper main_title">我的财务中心</h1>
+	<div class="wrapper main_tab_link">
+		<a href="7_1_Finance_1.html"  class="tab_cur">我的订单</a>
+		<a href="7_2_wdbx.html">我的报销</a>
+		<a href="7_3_wdsj.html">我的收据</a>
+		<a href="7_4_wdfp.html">我的发票</a>
+	</div>
+
+
+	<div class="wrapper myorder">
+		<p class="title">我的订单</p>
+		<div class="tab_option">
+			<span class="tab_curr1">订单清单</span>
+			<span>增票资质</span>
+			<span>发票帮助中心</span>
+		</div>
+		<div class="tab_content">
+			<div class="tab_cont qindan wrap1100">
+				<div class="tip">
+					<p class="tit">温馨提示：</p>
+					<p>1.补开发票需下单在180天内，普票订单完成，增票订单完成10天以上。</p>
+					<p>2.非自营实物类商品发票不由时空魔方开具，如需开具请联系商家咨询。</p>
+				</div>
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr class="thead">
+						<th width="770">订单详情</th>
+						<th width="110">发票类型</th>
+						<th width="110">状态</th>
+						<th width="110">操作</th>
+					</tr>
+					<tr height="20px"></tr>
+					<tr class="pro">
+						<td colspan="4">
+							<table border="0" cellspacing="0" cellpadding="0">
+								<tr class="thead">
+									<td colspan="4"><p class="timeinfo">2016-06-13 17:56:09&emsp;&emsp;订单号：<span>19759509091</span></p></td>
+								</tr>
+								<tr>
+									<td width="770px">
+										<div class="proinfo">
+											<div class="proimg"><img src="images/7_01.jpg" /> </div>
+											<div class="intro"><p>飞利浦电吹飞机 世界通用电压 负离子养护负离子养护</p></div>
+											<span>×2</span>
+										</div>
+									</td>
+									<td width="110px"><p class="invoice">普通发票</p></td>
+									<td width="110px"><p class="state01">已开</p></td>
+									<td width="110px"><p class="bill_detail"><a href="#">发票详情</a></p></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr height="20px"></tr>
+					<tr class="pro">
+						<td colspan="4">
+							<table border="0" cellspacing="0" cellpadding="0">
+								<tr class="thead">
+									<td colspan="4">
+										<p class="timeinfo">2016-06-13 17:56:09&emsp;&emsp;订单号：<span>19759509091</span></p>
+										<p class="storename">戈麦斯旗舰店</p>
+										<p class="phonenum">400-160-4100</p>
+									</td>
+								</tr>
+								<tr>
+									<td width="770px">
+										<div class="proinfo">
+											<div class="proimg"><img src="images/7_02.jpg" /> </div>
+											<div class="intro"><p>飞利浦电吹飞机 世界通用电压 负离子养护负离子养护</p></div>
+											<span>×1</span>
+										</div>
+									</td>
+									<td width="110px"><p class="invoice"></p></td>
+									<td width="110px"><p class="state02">未开</p></td>
+									<td width="110px"><p class="bill_detail02"><a href="#">联系商家</a><a href="#" class="link">?</a></p></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<tr height="20px"></tr>
+					<tr class="pro">
+						<td colspan="4">
+							<table border="0" cellspacing="0" cellpadding="0">
+								<tr class="thead">
+									<td colspan="4">
+										<p class="timeinfo">2016-06-13 17:56:09&emsp;&emsp;订单号：<span>19759509091</span></p>
+										<p class="storename">戈麦斯旗舰店</p>
+										<p class="phonenum">400-160-4100</p>
+									</td>
+								</tr>
+								<tr>
+									<td width="770px">
+										<div class="proinfo">
+											<div class="proimg"><img src="images/7_03.jpg" /> </div>
+											<div class="intro"><p>飞利浦电吹飞机 世界通用电压 负离子养护负离子养护</p></div>
+											<span>×1</span>
+										</div>
+									</td>
+									<td width="110px" rowspan="3"><p class="invoice">普通发票</p></td>
+									<td width="110px" rowspan="3"><p class="state02">未开</p></td>
+									<td width="110px" rowspan="3"><p class="bill_detail02"><a href="#">发票详情</a> <a href="#" class="link">?</a></p></td>
+								</tr>
+								<tr>
+									<td width="770px">
+										<div class="proinfo">
+											<div class="proimg"><img src="images/7_04.jpg" /> </div>
+											<div class="intro"><p>飞利浦电吹飞机 世界通用电压 负离子养护负离子养护</p></div>
+											<span>×1</span>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td width="770px">
+										<div class="proinfo">
+											<div class="proimg"><img src="images/7_05.jpg" /> </div>
+											<div class="intro"><p>飞利浦电吹飞机 世界通用电压 负离子养护负离子养护</p></div>
+											<span>×1</span>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+
+
+				</table>
+				<div class="pages">
+					<a href="#">&lt;&lt;</a>
+					<a href="#">&lt;</a>
+					<a href="#" class="cur">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">6</a>
+					<a href="#">7</a>
+					<a href="#">8</a>
+					<a href="#">9</a>
+					<a href="#">10</a>
+					<a href="#">&gt;</a>
+					<a href="#">&gt;&gt;</a>
+				</div>
+			</div>
+			
+			<div class="tab_cont competence" style="display: none;">
+				<div class="bacgrod">
+					<div class="zpzz wrap1100">
+						<div class="tit">
+							<p class="tita">增票资质</p>
+							<p>我们在一个工作日内完成审核工作。</p>
+							<p>1)注意有效增值税发票开票仅为一个。</p>
+							<p>2)发票常见问题查看<a href="#">增票资质帮助</a>。</p>
+						</div>
+						<div class="tip01">
+							重新提交新资质修改流程：<span>点击“删除”按钮->点击增加增票资质“按钮”->填写资质信息->上传加盖公章的有效证件扫描件</span>
+						</div>
+						<div class="tip02">
+							<p>您的赠票资质：<b>未通过审核</b> <a href="#">删除</a></p>
+							<span>您好，未收到一般纳税认证（可登录国税网查询下载一般纳税人证并加盖公章公章），请重新填写信息并上传加盖公章的有效证件，谢谢！</span>
+						</div>
+					</div>
+					<div class="information wrap1100">
+						<p>单位名称：深圳市轨迹网络科技有限公司</p>
+						<p>纳税人识别码：44030007802130</p>
+						<p>注册地址：深圳市龙华新区民治大道华侨鑫苑1栋6D</p>
+						<p>注册电话：07552371000</p>
+						<p>开户银行：深圳市农商银行上塘支行</p>
+						<p>银行账户：07552371000</p>
+						<p class="upload">上传资质文件</p>
+						<p>税务登记证副本</p>
+						<p>一般纳税人证书</p>
+
+						<div class="tip01">
+							修改委托书证书流程：<span>点击删除连接->重新上传加盖公章的有效委托书扫描件。</span>
+						</div>
+						<div class="tip03">上传增票授权委托书  <a href="#">增票授权委托书模板下载</a></div>
+						<div class="tip04">增票授权委托书  <span>待审核</span> <a href="#">删除</a></div>
+					</div>
+
+					<div class="shoupiaodz	wrap1100" style="display: none";>
+				<p>增票收票地址</p>
+				<table>
+					<tr>
+						<td><p class="tdtit">你还未设置地址：</p></td>
+						<td><a href="#">立即设置</a> </td>
+					</tr>
+					<tr>
+						<td><p class="tdtit">收票人姓名：</p></td>
+						<td><div class="input01"><input type="text" placeholder="段士瑞"/> </div> </td>
+					</tr>
+					<tr>
+						<td><p class="tdtit">收票人手机号码：</p></td>
+						<td><div class="input01"><input type="text" placeholder="13902933234"/> </div> </td>
+					</tr>
+					<tr>
+						<td><p class="tdtit">收票人省份：</p></td>
+						<td>
+							<div class="pull_down01">
+								<div class="sel-boxone sele" id="Tmcselect02">
+									<input for="label" type="text" readonly value="广东省">
+									<ul class="sel-list">
+										<li data="">效果图</li>
+										<li data="3">主材</li>
+										<li data="4">辅材</li>
+										<li data="5">软装</li>
+										<div class="clear"></div>
+									</ul>
+								</div>
+							</div>
+							<div class="pull_down01">
+								<div class="sel-boxone sele" id="Tmcselect03">
+									<input for="label" type="text" readonly value="深圳市">
+									<ul class="sel-list">
+										<li data="">效果图</li>
+										<li data="3">主材</li>
+										<li data="4">辅材</li>
+										<li data="5">软装</li>
+										<div class="clear"></div>
+									</ul>
+								</div>
+							</div>
+							<div class="pull_down01">
+								<div class="sel-boxone sele" id="Tmcselect04">
+									<input for="label" type="text" readonly value="南山区">
+									<ul class="sel-list">
+										<li data="">效果图</li>
+										<li data="3">主材</li>
+										<li data="4">辅材</li>
+										<li data="5">软装</li>
+										<div class="clear"></div>
+									</ul>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td><p class="tdtit">收票人地址：</p></td>
+						<td><div class="input01"><input type="text" placeholder="梅园路1号西海明珠花园"/> </div> </td>
+					</tr>
+				</table>
+				<div class="buttom">
+					<a href="#" class="keep">保存</a> <a href="#" class="cancel">取消</a>
+				</div>
+			</div>
+				</div>
+		</div>
+			<div class="tab_cont helpcenter wrap1100" style="display: none;">
+				<div class="senctab">
+					<ul>
+						<li class="active">全部问题</li>
+						<li>发票制度说明</li>
+						<li>普通发票</li>
+						<li>电子发票</li>
+						<li>增值税发票</li>
+						<li>发票常见问题</li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+				<div class="sencopts">
+					<div class="opts">
+						<p>问题知识问答</p>
+						<div class="ul">
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">发票中是否显示费金额？</a></li>
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">发票显示运费金额？</a></li>
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">发票中是否人人人发广告广告广告广告显示运费金额？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">怎么换发票？</a></li>
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+						</div>
+					</div>
+
+					<div class="opts" style="display: none">
+						<p>问题知识问答</p>
+						<div class="ul">
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+
+						</div>
+					</div>
+					<div class="opts" style="display: none">
+						<p>问题知识问答</p>
+						<div class="ul">
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+						</div>
+					</div>
+					<div class="opts" style="display: none">
+						<p>问题知识问答</p>
+						<div class="ul">
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+						</div>
+					</div>
+
+					<div class="opts" style="display: none">
+						<p>问题知识问答</p>
+						<div class="ul">
+							<li><a href="#">发票中是否显示运费金额？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+						</div>
+					</div>
+
+					<div class="opts" style="display: none">
+						<p>问题知识问答</p>
+						<div class="ul">
+							<li><a href="#">如获得发票？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+							<li><a href="#">如获得发票？</a></li>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div><!--tab_content-->
+		<div class="clear"></div>
+	</div>
+	<!--通用底部-->
+	<div class="footer">
+		<div class="line">
+			<p>联系我们</p>
+		</div>
+		<div class="footer_b">
+			<p>139 0293 3234</p>
+			<p>邮箱：service@gojoin.cn</p>
+			<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+		</div>
+	</div>
+	<script>
+	$('#Tmcselect01').input();
+	$('#Tmcselect02').input();
+	$('#Tmcselect03').input();
+	$('#Tmcselect04').input();
+	$('#Tmcselect05').input();
+	$('#Tmcselect06').input();
+	$('#Tmcselect07').input();
+	$('#Tmcselect08').input();
+	$('#Tmcselect09').input();
+	$('#Tmcselect10').input();
+	</script>
+</body>
+</html>

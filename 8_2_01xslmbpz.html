@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>8_2_02行事历模板配置</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/8_configure.css" />		
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>		
+				
+	</head>
+	<body>
+	<!--通用头部-->
+		<div class="header">
+			<div class="header_t">
+				<div class="header_tr wrapper">
+					<ul>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">我的行程</a></li>
+						<li>
+							<div class="sel-boxone sele_head" id="Tmcselect01">
+								<input for="label" type="text" readonly value="Ryan的个人中心">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header_b wrapper">
+				<div class="header_L">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" /></a>
+					</div>
+					<div class="addr">
+						<p>深圳</p>
+					</div>
+				</div>
+				<div class="header_R">
+					<div class="menu">
+						<ul>
+							<li><a href="#">活动</a></li>
+							<li><a href="#">场地</a></li>
+							<li><a href="#">专题</a></li>
+							<li><a href="#">专家</a></li>							
+							<div class="clear"></div>
+						</ul>
+						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="搜索" />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+	<!--主体内容tit-->
+		<div class="templet wrapper">
+			<div class="btns">
+				<a href="8_2_01xslmbpz.html" class="active">日模板</a>
+				<a href="8_2_02xslmbpz.html">周模板</a>
+				<a href="8_2_03xslmbpz.html">月模板</a>
+				<a href="8_2_04xslmbpz.html">年模板</a>
+			</div>
+		</div>
+	<!--日模板-->
+		<div class="daytemplet wrapper">
+			<div class="opts">
+				<div class="tit">
+					<h1>标准工作日模板：</h1> 
+					<div class="pull_down01">
+						<div class="sel-boxone sele" id="Tmcselect02">
+							<input for="label" type="text" readonly value="默认24H">
+							<ul class="sel-list">
+								<li data="">效果图</li>
+								<li data="3">主材</li>
+								<li data="4">辅材</li>
+								<li data="5">软装</li>
+								<div class="clear"></div>
+							</ul>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+		<!--table-->
+				<div class="table">
+					<table>
+						<tr>
+							<th width="190px">选择时间段 </th>
+							<th width="240px">设置开始时间</th>
+							<th width="240px">设置结束时间</th>
+							<th width="240px">累计时长</th>
+							<th width="260px">操作</th>
+						</tr>
+						<tr>
+							<td><div class="time"><input type="checkbox" id="time1"/><label for="time1">早晨 </label> </div> </td>
+							<td><p>5:00</p></td>
+							<td><p>8:00</p></td>
+							<td><p>3小时</p></td>
+							<td><p class="caozuo"><a href="#">-隐藏</a>  <a href="#">*修改</a>   <a href="#">×删除</a>  <a href="#">+添加</a></p></td>
+						</tr>
+						<tr>
+							<td><div class="time"><input type="checkbox" id="time1"/><label for="time1">上午 </label> </div> </td>
+							<td><p>5:00</p></td>
+							<td><p>8:00</p></td>
+							<td><p>3小时</p></td>
+							<td><p class="caozuo"><a href="#">-隐藏</a>  <a href="#">*修改</a>   <a href="#">×删除</a>  <a href="#">+添加</a></p></td>
+						</tr>
+						<tr>
+							<td><div class="time"><input type="checkbox" id="time1"/><label for="time1">中午 </label> </div> </td>
+							<td><p>5:00</p></td>
+							<td><p>8:00</p></td>
+							<td><p>3小时</p></td>
+							<td><p class="caozuo"><a href="#">-隐藏</a>  <a href="#">*修改</a>   <a href="#">×删除</a>  <a href="#">+添加</a></p></td>
+						</tr>
+						<tr>
+							<td><div class="time"><input type="checkbox" id="time1"/><label for="time1">下午 </label> </div> </td>
+							<td><p>5:00</p></td>
+							<td><p>8:00</p></td>
+							<td><p>3小时</p></td>
+							<td><p class="caozuo"><a href="#">-隐藏</a>  <a href="#">*修改</a>   <a href="#">×删除</a>  <a href="#">+添加</a></p></td>
+						</tr>
+						<tr>
+							<td><div class="time"><input type="checkbox" id="time1"/><label for="time1">晚上 </label> </div> </td>
+							<td><p>5:00</p></td>
+							<td><p>8:00</p></td>
+							<td><p>3小时</p></td>
+							<td><p class="caozuo"><a href="#">-隐藏</a>  <a href="#">*修改</a>   <a href="#">×删除</a>  <a href="#">+添加</a></p></td>
+						</tr>
+						<tr>
+							<td><div class="time"><input type="checkbox" id="time1"/><label for="time1">深夜 </label> </div> </td>
+							<td><p>5:00</p></td>
+							<td><p>8:00</p></td>
+							<td><p>3小时</p></td>
+							<td><p class="caozuo"><a href="#">-隐藏</a>  <a href="#">*修改</a>   <a href="#">×删除</a>  <a href="#">+添加</a></p></td>
+						</tr>
+					</table>
+				</div>
+				
+				<div class="submit"><a href="#">保存</a> <a href="#">发布</a></div>
+			</div>
+		</div>
+
+
+
+
+
+
+ <!--通用底部-->
+		<div class="footer">
+			<div class="line">
+				<p>联系我们</p>
+			</div>
+			<div class="footer_b">
+				<p>139 0293 3234</p>
+				<p>邮箱：service@gojoin.cn</p>
+				<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+			</div>
+		</div>
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+</script>
+	</body>
+</html>

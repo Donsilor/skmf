@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>7_3_我的收据</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/7_Finance.css" />
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>
+		<script src="js/option.js"></script>
+				
+	</head>
+	<body>
+	<!--通用头部-->
+		<div class="header">
+			<div class="header_t">
+				<div class="header_tr wrapper">
+					<ul>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">我的行程</a></li>
+						<li>
+							<div class="sel-boxone sele_head" id="Tmcselect01">
+								<input for="label" type="text" readonly value="Ryan的个人中心">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header_b wrapper">
+				<div class="header_L">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" /></a>
+					</div>
+					<div class="addr">
+						<p>深圳</p>
+					</div>
+				</div>
+				<div class="header_R">
+					<div class="menu">
+						<ul>
+							<li><a href="#">活动</a></li>
+							<li><a href="#">场地</a></li>
+							<li><a href="#">专题</a></li>
+							<li><a href="#">专家</a></li>							
+							<div class="clear"></div>
+						</ul>
+						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="搜索" />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+	<!--主体内容-->
+	<h1 class="wrapper main_title">我的财务中心</h1>
+	<div class="wrapper main_tab_link">
+		<a href="7_1_Finance_1.html">我的订单</a>
+		<a href="7_2_wdbx.html">我的报销</a>
+		<a href="7_3_wdsj.html" class="tab_cur">我的收据</a>
+		<a href="7_4_wdfp.html">我的发票</a>
+	</div>
+<!--我的报销主体内容-->
+	<div class="mybx wrapper">
+		<div class="titul">
+			<span class="active">个人收款收据</span>
+			<span>租金专用收据</span>
+		</div>
+		<div class="costorder">
+			<!--费用报销单-->
+				<div class="costcont">
+					<div class="tit"><h1>收款收据单</h1></div>
+					<div class="costinput myreceipt">
+						<div class="input02">
+							<span class="name">*开票时间：</span>
+							<input type="text"/>
+						</div>
+						<div class="input03">
+							<span class="name">*开票编号：</span>
+							<div class="pull_down01">
+								<div class="sel-boxone sele" id="Tmcselect02">
+									<input for="label" type="text" readonly value="0000000000">
+									<ul class="sel-list">
+										<li data="">效果图</li>
+										<li data="3">主材</li>
+										<li data="4">辅材</li>
+										<li data="5">软装</li>
+										<div class="clear"></div>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="receiptable01">
+						<table>
+							<tr>
+								<td width="90px"><p class="tdtit">今收到：</p></td>
+								<td>
+									<div class="pull_down01">
+										<div class="sel-boxone sele" id="Tmcselect03">
+											<input for="label" type="text" readonly value="">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+									<p class="p01"><a href="#" class="add">+添加公司 </a><a href="#" class="add">+添加个人 </a>  </p>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">交来：</p></td>
+								<td>
+									<div class="input01"><input type="text"> </div>
+									<span>费用</span>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">金额总计：</p></td>
+								<td>
+									<div class="capital">
+										<div class="pull_down02">
+											<div class="sel-boxone sele" id="Tmcselect04">
+												<input for="label" type="text" readonly="" value="零">
+												<ul class="sel-list" style="display: none;">
+													<li data="">1</li>
+													<li data="3">2</li>
+													<li data="4">3</li>
+													<li data="5">4</li>
+													<div class="clear"></div>
+												</ul>
+											</div>
+										</div>
+										<span class="name">拾</span>
+										<div class="pull_down02">
+											<div class="sel-boxone sele" id="Tmcselect05">
+												<input for="label" type="text" readonly="" value="零">
+												<ul class="sel-list" style="display: none;">
+													<li data="">1</li>
+													<li data="3">2</li>
+													<li data="4">3</li>
+													<li data="5">4</li>
+													<div class="clear"></div>
+												</ul>
+											</div>
+										</div>
+										<span class="name">万</span>
+										<div class="pull_down02">
+											<div class="sel-boxone sele" id="Tmcselect06">
+												<input for="label" type="text" readonly="" value="零">
+												<ul class="sel-list" style="display: none;">
+													<li data="">1</li>
+													<li data="3">2</li>
+													<li data="4">3</li>
+													<li data="5">4</li>
+													<div class="clear"></div>
+												</ul>
+											</div>
+										</div>
+										<span class="name">仟</span>
+										<div class="pull_down02">
+											<div class="sel-boxone sele" id="Tmcselect07">
+												<input for="label" type="text" readonly="" value="零">
+												<ul class="sel-list" style="display: none;">
+													<li data="">1</li>
+													<li data="3">2</li>
+													<li data="4">3</li>
+													<li data="5">4</li>
+													<div class="clear"></div>
+												</ul>
+											</div>
+										</div>
+										<span class="name">佰</span>
+										<div class="pull_down02">
+											<div class="sel-boxone sele" id="Tmcselect08">
+												<input for="label" type="text" readonly="" value="零">
+												<ul class="sel-list" style="display: none;">
+													<li data="">1</li>
+													<li data="3">2</li>
+													<li data="4">3</li>
+													<li data="5">4</li>
+													<div class="clear"></div>
+												</ul>
+											</div>
+										</div>
+										<span class="name">拾</span>
+										<div class="pull_down02">
+											<div class="sel-boxone sele" id="Tmcselect09">
+												<input for="label" type="text" readonly="" value="零">
+												<ul class="sel-list" style="display: none;">
+													<li data="">1</li>
+													<li data="3">2</li>
+													<li data="4">3</li>
+													<li data="5">4</li>
+													<div class="clear"></div>
+												</ul>
+											</div>
+										</div>
+										<span class="name">元</span>
+										<div class="pull_down02">
+											<div class="sel-boxone sele" id="Tmcselect10">
+												<input for="label" type="text" readonly="" value="零">
+												<ul class="sel-list" style="display: none;">
+													<li data="">1</li>
+													<li data="3">2</li>
+													<li data="4">3</li>
+													<li data="5">4</li>
+													<div class="clear"></div>
+												</ul>
+											</div>
+										</div>
+										<span class="name">角</span>
+										<div class="pull_down02">
+											<div class="sel-boxone sele" id="Tmcselect11">
+												<input for="label" type="text" readonly="" value="零">
+												<ul class="sel-list" style="display: none;">
+													<li data="">1</li>
+													<li data="3">2</li>
+													<li data="4">3</li>
+													<li data="5">4</li>
+													<div class="clear"></div>
+												</ul>
+											</div>
+										</div>
+										<span class="name">分</span>
+										<div class="clear"></div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit"><b>￥</b></p></td>
+								<td>
+									<div class="input02"><input type="text"> </div>
+									<span>元</span>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">支付形式：</p></td>
+								<td>
+									<div class="pay"><input type="checkbox" id="zfb"> <label for="zfb">支付宝</label></div>
+									<div class="pay"><input type="checkbox" id="weix"> <label for="zfb">微信 </label></div>
+									<div class="pay"><input type="checkbox" id="cash"> <label for="cash">现金</label></div>
+									<div class="pay"><input type="checkbox" id="unionpay"> <label for="unionpay">银联  </label></div>
+									<div class="pay"><input type="checkbox" id="cheque"> <label for="cheque">支票</label></div>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">收款人：</p></td>
+								<td>
+									<div class="input03"><input type="text" placeholder="段士瑞"> </div>
+									<a href="#" class="add">+添加     <b>（默认本账户人)</b></a>
+								</td>
+							</tr>
+							<tr>
+								<td width="90px"><p class="tdtit">收款单位：</p></td>
+								<td>
+									<div class="pull_down01">
+										<div class="sel-boxone sele" id="Tmcselect12">
+											<input for="label" type="text" readonly value="主材">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+									<a href="#" class="add">+添加公司 <b>（默认所属公司）</b></a>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">开具发票：</p></td>
+								<td>
+									<div class="pay"><input type="radio" id="need" name="fp"> <label for="need">需要</label></div>
+									<div class="pay"><input type="radio" id="no" name="fp"> <label for="no">不需要 </label></div>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="btns">
+						<a href="#">保存</a>
+						<a href="#">提交</a>
+						<a href="#">取消</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+			<!--房  租  专  用  收  款  收  据-->
+
+			<div class="costcont" style="display: none;">
+					<div class="tit"><h1>房租专用收款收据</h1></div>
+				<div class="costinput myreceipt">
+					<div class="input02">
+						<span class="name">*开票时间：</span>
+						<input type="text"/>
+					</div>
+					<div class="input03">
+						<span class="name">*开票编号：</span>
+						<div class="pull_down01">
+							<div class="sel-boxone sele" id="Tmcselect13">
+								<input for="label" type="text" readonly value="0000000000">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+				<div class="uesrname">
+					<span>用户名称：</span>
+					<input type="text">
+					<span>村</span>
+					<input type="text">
+					<span>栋</span>
+					<input type="text">
+					<span>单元</span>
+					<input type="text">
+					<span>房</span>
+					<div class="clear"></div>
+				</div>
+
+				<div class=" roomtable">
+					<table>
+						<tr>
+							<th width="115px">项目 </th>
+							<th width="120px">上月</th>
+							<th width="120px">本月</th>
+							<th width="120px">实用</th>
+							<th width="125px">单价</th>
+							<th width="70px">千</th>
+							<th width="70px">万 </th>
+							<th width="70px">百</th>
+							<th width="70px">十</th>
+							<th width="70px">元</th>
+							<th width="70px">角</th>
+							<th width="70px">分</th>
+							<th width="80px">备注</th>
+						</tr>
+						<tr>
+							<td><p class="tdtit">水费（吨）</p></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">房租</p></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">卫生费 </p></td>
+							<td><p class="tdtit">管理费 </p></td>
+							<td><p class="tdtit">电视费 </p></td>
+							<td><p class="tdtit">网络费 </p></td>
+							<td><p class="tdtit">其它费 </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit">合计<br><b>&emsp;（小写）</b></p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">合计RMB<b><br>&emsp;（大写）</b> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit">万<br>&emsp;&emsp;<b>M</b> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit">千 </p></td>
+							<td><p class="tdtit"></p></td>
+							<td><p class="tdtit">百 </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit">拾 </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit">元</p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit">角</p></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">开票人</p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"></p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit">收款人</p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+							<td><p class="tdtit"> </p></td>
+						</tr>
+					</table>
+				</div>
+				<div class="roomtable_ul">
+					<ul>
+						<li class="lia">
+							<span>收款人：</span>
+							<input type="text"placeholder="×××" class="text">
+							<a href="#" class="add">+添加   <b>（默认本账户人)</b></a>
+						</li>
+						<li class="lia">
+							<span>开票人：</span>
+							<input type="text"placeholder="×××" class="text">
+							<a href="#" class="add">+添加</b></a>
+						</li>
+						<li class="lia">
+							<span>开具发票：</span>
+							<div class="pay"><input type="radio" id="need" name="fp"> <label for="need">需要</label></div>
+							<div class="pay"><input type="radio" id="no" name="fp"> <label for="no">不需要 </label></div>
+						</li>
+						<li class="lia">
+							<span>收款单位：</span>
+							<div class="pull_down01">
+								<div class="sel-boxone sele" id="Tmcselect14">
+									<input for="label" type="text" readonly value="">
+									<ul class="sel-list">
+										<li data="">效果图</li>
+										<li data="3">主材</li>
+										<li data="4">辅材</li>
+										<li data="5">软装</li>
+										<div class="clear"></div>
+									</ul>
+								</div>
+							</div>
+							<a href="#" class="add">+添加公司 <b>（默认所属公司）</b></a>
+						</li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+
+
+
+				</div><!--costcont-->
+
+
+
+		</div><!--costorder-->
+	</div>
+<!--通用底部-->
+		<div class="footer">
+			<div class="line">
+				<p>联系我们</p>
+			</div>
+			<div class="footer_b">
+				<p>139 0293 3234</p>
+				<p>邮箱：service@gojoin.cn</p>
+				<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+			</div>
+		</div>
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+$('#Tmcselect03').input();
+$('#Tmcselect04').input();
+$('#Tmcselect05').input();
+$('#Tmcselect06').input();
+$('#Tmcselect07').input();
+$('#Tmcselect08').input();
+$('#Tmcselect09').input();
+$('#Tmcselect10').input();
+$('#Tmcselect11').input();
+$('#Tmcselect12').input();
+$('#Tmcselect13').input();
+$('#Tmcselect14').input();
+
+
+
+</script>
+	</body>
+</html>

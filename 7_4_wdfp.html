@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>7_4_我的发票</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/7_Finance.css" />
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>
+		<script src="js/option.js"></script>
+				
+	</head>
+	<body>
+	<!--通用头部-->
+		<div class="header">
+			<div class="header_t">
+				<div class="header_tr wrapper">
+					<ul>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">我的行程</a></li>
+						<li>
+							<div class="sel-boxone sele_head" id="Tmcselect01">
+								<input for="label" type="text" readonly value="Ryan的个人中心">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header_b wrapper">
+				<div class="header_L">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" /></a>
+					</div>
+					<div class="addr">
+						<p>深圳</p>
+					</div>
+				</div>
+				<div class="header_R">
+					<div class="menu">
+						<ul>
+							<li><a href="#">活动</a></li>
+							<li><a href="#">场地</a></li>
+							<li><a href="#">专题</a></li>
+							<li><a href="#">专家</a></li>							
+							<div class="clear"></div>
+						</ul>
+						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="搜索" />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+	<!--主体内容-->
+	<h1 class="wrapper main_title">我的财务中心</h1>
+	<div class="wrapper main_tab_link">
+		<a href="7_1_Finance_1.html">我的订单</a>
+		<a href="7_2_wdbx.html">我的报销</a>
+		<a href="7_3_wdsj.html">我的收据</a>
+		<a href="7_4_wdfp.html" class="tab_cur">我的发票</a>
+	</div>
+<!--我的发票主体内容-->
+	<div class="wdfp wrapper">
+		<div class="tit"><h1>发票查询清单<span>（发票在申请后3个工作日开具并寄出，已寄出发票快递信息点击查看按钮。）</span></h1></div>
+		<div class="bill">
+			<span>发票类型：</span>
+			<div class="pull_down01">
+				<div class="sel-boxone sele" id="Tmcselect02">
+					<input for="label" type="text" readonly value="普通发票">
+					<ul class="sel-list">
+						<li data="">效果图</li>
+						<li data="3">主材</li>
+						<li data="4">辅材</li>
+						<li data="5">软装</li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+			</div>
+			<div class="pull_down01">
+				<div class="sel-boxone sele" id="Tmcselect03">
+					<input for="label" type="text" readonly value="培训费">
+					<ul class="sel-list">
+						<li data="">效果图</li>
+						<li data="3">主材</li>
+						<li data="4">辅材</li>
+						<li data="5">软装</li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+			</div>
+			<div class="text01"><input type="text"placeholder="公司/内容关键字"> </div>
+			<a href="#" class="add">+添加公司</a>
+			<div class="clear"></div>
+		</div>
+		<div class="bill">
+			<span>发票申请时间：</span>
+			<span>不限&emsp;&emsp;一天内&emsp;&emsp;一周内&emsp;&emsp; 一月内</span>
+			<div class="text02"><input type="text"/></div>
+			<span>---</span>
+			<div class="text02"><input type="text"/></div>
+			<div class="clear"></div>
+		</div>
+		<div class="bill">
+			<span>发票抬头：</span>
+			<div class="pull_down01">
+			<div class="sel-boxone sele" id="Tmcselect04">
+				<input for="label" type="text" readonly value="模糊匹配">
+				<ul class="sel-list">
+					<li data="">效果图</li>
+					<li data="3">主材</li>
+					<li data="4">辅材</li>
+					<li data="5">软装</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+			</div>
+			<span>核准：</span>
+			<div class="pull_down01">
+			<div class="sel-boxone sele" id="Tmcselect05">
+				<input for="label" type="text" readonly value="-请选择-">
+				<ul class="sel-list">
+					<li data="">效果图</li>
+					<li data="3">主材</li>
+					<li data="4">辅材</li>
+					<li data="5">软装</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+			</div>
+			<span>状态：</span>
+			<div class="pull_down01">
+			<div class="sel-boxone sele" id="Tmcselect06">
+				<input for="label" type="text" readonly value="-请选择-">
+				<ul class="sel-list">
+					<li data="">效果图</li>
+					<li data="3">主材</li>
+					<li data="4">辅材</li>
+					<li data="5">软装</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="btns"><a href="#">查询</a> </div>
+		<div class="table">
+			<table>
+				<tr>
+					<th width="90px">序号 </th>
+					<th width="245px"> 发票抬头 </th>
+					<th width="125px">开票金额（元）</th>
+					<th width="60px">单位 </th>
+					<th width="80px">审核 </th>
+					<th width="85px">状态  </th>
+					<th width="90px">开票类型 </th>
+					<th width="145px">  申请时间</th>
+					<th width="145px">邮寄时间</th>
+					<th width="105px">操作</th>
+
+				</tr>
+				<tr>
+					<td><p class="tdtit01">1</p></td>
+					<td>《深圳市轨迹网络科技开发有限公司》</td>
+					<td>4000</td>
+					<td>2人</td>
+					<td>未审核 </td>
+					<td>未处理</td>
+					<td>普通发票 </td>
+					<td>2016-7-14 14:10:01  </td>
+					<td>2016-7-21  00:09:00 </td>
+					<td><a href="#" class="add">修改</a>   <a href="#" class="add">x删除</a></td>
+				</tr>
+				<tr>
+					<td><p class="tdtit02">2</p></td>
+					<td>《深圳市轨迹网络科技开发有限公司》</td>
+					<td>4000</td>
+					<td>2人</td>
+					<td>已核准 </td>
+					<td>已处理</td>
+					<td>普通发票 </td>
+					<td>2016-7-14 14:10:01  </td>
+					<td>2016-7-21  00:09:00 </td>
+					<td><a href="#" class="add">查看</a></td>
+				</tr>
+				<tr>
+					<td><p class="tdtit01">3</p></td>
+					<td>《深圳市轨迹网络科技开发有限公司》</td>
+					<td>4000</td>
+					<td>2人</td>
+					<td>未审核 </td>
+					<td>未处理</td>
+					<td>普通发票 </td>
+					<td>2016-7-14 14:10:01  </td>
+					<td>2016-7-21  00:09:00 </td>
+					<td><a href="#" class="add">查看</a></td>
+				</tr>
+				<tr>
+					<td><p class="tdtit02">4</p></td>
+					<td>《深圳市轨迹网络科技开发有限公司》</td>
+					<td>4000</td>
+					<td>2人</td>
+					<td>已核准 </td>
+					<td>已寄出</td>
+					<td>普通发票 </td>
+					<td>2016-7-14 14:10:01  </td>
+					<td>2016-7-21  00:09:00 </td>
+					<td><a href="#" class="add">修改</a><a href="#" class="add">删除</a></td>
+				</tr>
+				<tr>
+					<td><p>5</p></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td> </td>
+					<td></td>
+					<td> </td>
+					<td> </td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		<div class="pages">
+			<span class="pages_tit">共10条记录  每页条数：</span>
+			<div class="total">
+					<div class="sel-boxone sele_head" id="Tmcselect07">
+									<input for="label" type="text" readonly="" value="20">
+									<ul class="sel-list">
+										<li data="">25</li>
+										<li data="3">30</li>
+										<li data="4">35</li>
+										<li data="5">40</li>
+										<div class="clear"></div>
+									</ul>
+					</div>
+				</div>
+			<p>
+
+				<a>&nbsp;</a>
+				<a href="#">跳转</a>
+				<a href="#">&lt;</a>
+				<a href="#">3/5</a>
+				<a href="#">&gt;</a>
+			</p>
+		</div>
+
+		<!--发票详情-->
+		<div class="fpdetail">
+			<div class="tit02"><h1>开票详情</h1></div>
+			<div class="table02">
+				<table>
+					<tr>
+						<th colspan="2">发票信息 &emsp;订单号：19319966786</th>
+					</tr>
+					<tr>
+						<td width="165px">发票类型</td>
+						<td>普通发票</td>
+					</tr>
+					<tr>
+						<td>发票内容</td>
+						<td>办公用品（附购票清单）</td>
+					</tr>
+					<tr>
+						<td>发票抬头</td>
+						<td>办公用品（附购票清单）</td>
+					</tr>
+
+					<tr>
+						<td>受票人姓名</td>
+						<td>办公用品（附购票清单）</td>
+					</tr>
+					<tr>
+						<td>收票人手机号码</td>
+						<td>办公用品（附购票清单）</td>
+					</tr>
+					<tr>
+						<td>收票人省份</td>
+						<td>办公用品（附购票清单）</td>
+					</tr>
+					<tr>
+						<td>收票人地址</td>
+						<td>广东省深圳市</td>
+					</tr>
+				</table>
+			</div>
+			<div class="table02">
+				<table>
+					<tr>
+						<th colspan="2">邮寄信息</th>
+					</tr>
+					<tr>
+						<td width="165px">快递公司</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>快递发票</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>寄出日期</td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+			<div class="table02">
+				<table>
+					<tr>
+						<th colspan="2">进度跟踪</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+<!--通用底部-->
+		<div class="footer">
+			<div class="line">
+				<p>联系我们</p>
+			</div>
+			<div class="footer_b">
+				<p>139 0293 3234</p>
+				<p>邮箱：service@gojoin.cn</p>
+				<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+			</div>
+		</div>
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+$('#Tmcselect03').input();
+$('#Tmcselect04').input();
+$('#Tmcselect05').input();
+$('#Tmcselect06').input();
+$('#Tmcselect07').input();
+
+</script>
+	</body>
+</html>

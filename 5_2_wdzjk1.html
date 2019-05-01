@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的专家库1</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/5_wdzjk.css" />
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>
+	</head>
+	<body>
+	<!--通用头部-->
+		<div class="header">
+			<div class="header_t">
+				<div class="header_tr wrapper">
+					<ul>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">我的行程</a></li>
+						<li>
+							<div class="sel-boxone sele_head" id="Tmcselect01">
+								<input for="label" type="text" readonly value="Ryan的个人中心">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header_b wrapper">
+				<div class="header_L">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" /></a>
+					</div>
+					<div class="addr">
+						<p>深圳</p>
+					</div>
+				</div>
+				<div class="header_R">
+					<div class="menu">
+						<ul>
+							<li><a href="#">活动</a></li>
+							<li><a href="#">场地</a></li>
+							<li><a href="#">专题</a></li>
+							<li><a href="#">专家</a></li>							
+							<div class="clear"></div>
+						</ul>
+						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="搜索" />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+	
+<!------我的专家库1------>
+		<div class="zjk_main01 wrapper">
+			<div class="title"><h3>我的共享名片</h3></div>
+				<div class="bg_color">
+				<div class="procedure">
+					
+						<ul>
+							<li>查看名片</li>
+							<li>共享名片</li>
+							<li>分享名片</li>
+							<li>查看他人名片</li>
+							<li>保存名片</li>						
+							<div class="clear"></div>
+						</ul>
+					
+				</div>
+				<div class="state">
+					<div class="imgs"><img src="images/fbhd03.fw.png" /> </div>
+					<div class="circle1"></div>
+					<div class="circle2"></div>
+					<div class="circle3"></div>
+					<div class="circle4"></div>											
+				</div>
+				<div class="card">
+					<div class="left"><img src="images/5_card01.jpg" /> </div>
+					<div class="right"><img src="images/5_card02.jpg" /> </div>	
+					<div class="clear"></div>
+				</div>
+				<div class="btns">
+					<a href="#">默认设置</a>
+					<a href="#">分享</a>					
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>	
+	
+	<!--选择我的名片-->
+		<div class="zjk_main02 wrapper">
+			<div class="tit"><h1>选择我的名片</h1></div>
+			<div class="card">
+				<div class="card_ul">
+					<ul>
+						<li  class="curr"><img src="images/5_card03.jpg" /> </li>
+						<li><img src="images/5_card04.jpg" /> </li>
+						<li><img src="images/5_card05.jpg" /> </li>
+						<li><img src="images/5_card06.jpg" /> </li>
+						<li><img src="images/5_card07.jpg" /> </li>
+						<li><img src="images/5_card08.jpg" /> </li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+				<div class="btns">
+					<a href="#">修改名片</a>
+					<a href="#">添加新名片</a>	
+				</div>
+			</div>
+		</div>
+		
+	<!--我的专家库-->
+		<div class="zjk_main03 wrapper">
+			<div class="tit"><h1>我的专家库</h1></div>
+			<div class="wdzjk_wrap">
+				<div class="wdzjk_table">
+				<table>
+					<tr>
+						<th width="42px">名片</th>
+						<th width="131px">姓名</th>
+						<th width="65px">性别</th>
+						<th width="65px">年龄</th>
+						<th width="86px">常驻城市</th>
+						<th width="135px">手机号</th>
+						<th width="110px">QQ号</th>
+						<th width="110px">微信号</th>
+						<th width="158px">联系邮箱</th>
+						<th width="180px">认证状态</th>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="images/5_card09.fw.png" /> </a></td>
+						<td><div class="name"><input type="text" /> </div></td>
+						<td>
+							<div class="sex">
+								<div class="sel-boxone sele" id="Tmcselect02">
+									<input for="label" type="text" readonly value="男">
+										<ul class="sel-list">
+											<li data="">男</li>
+											<li data="">女</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="age"><input type="text" /> </div></td>
+						<td>
+							<div class="city">
+								<div class="sel-boxone sele" id="Tmcselect03">
+									<input for="label" type="text" readonly value="深圳">
+										<ul class="sel-list">
+											<li data="">深圳</li>
+											<li data="">上海</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="phone"><input type="text" /> </div></td>
+						<td><div class="qq"><input type="text" /> </div></td>
+						<td><div class="weichat"><input type="text" /> </div></td>
+						<td><div class="email"><input type="text" /> </div></td>
+						<td>
+							<p class="smallpic">
+								<a href="#"><img src="images/zjicon01.png" /> </a>
+								<a href="#"><img src="images/zjicon02.png" /> </a>
+								<a href="#"><img src="images/zjicon03.png" /> </a>
+								<a href="#"><img src="images/zjicon04.png" /> </a>
+								<a href="#"><img src="images/zjicon05.png" /> </a>
+								<a href="#"><img src="images/zjicon06.png" /> </a>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="images/5_card09.fw.png" /> </a></td>
+						<td><div class="name"><input type="text" /> </div></td>
+						<td>
+							<div class="sex">
+								<div class="sel-boxone sele" id="Tmcselect04">
+									<input for="label" type="text" readonly value="男">
+										<ul class="sel-list">
+											<li data="">男</li>
+											<li data="">女</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="age"><input type="text" /> </div></td>
+						<td>
+							<div class="city">
+								<div class="sel-boxone sele" id="Tmcselect05">
+									<input for="label" type="text" readonly value="深圳">
+										<ul class="sel-list">
+											<li data="">深圳</li>
+											<li data="">上海</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="phone"><input type="text" /> </div></td>
+						<td><div class="qq"><input type="text" /> </div></td>
+						<td><div class="weichat"><input type="text" /> </div></td>
+						<td><div class="email"><input type="text" /> </div></td>
+						<td>
+							<p class="smallpic">
+								<a href="#"><img src="images/zjicon01.png" /> </a>
+								<a href="#"><img src="images/zjicon02.png" /> </a>
+								<a href="#"><img src="images/zjicon03.png" /> </a>
+								<a href="#"><img src="images/zjicon04.png" /> </a>
+								<a href="#"><img src="images/zjicon05.png" /> </a>
+								<a href="#"><img src="images/zjicon06.png" /> </a>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="images/5_card09.fw.png" /> </a></td>
+						<td><div class="name"><input type="text" /> </div></td>
+						<td>
+							<div class="sex">
+								<div class="sel-boxone sele" id="Tmcselect06">
+									<input for="label" type="text" readonly value="男">
+										<ul class="sel-list">
+											<li data="">男</li>
+											<li data="">女</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="age"><input type="text" /> </div></td>
+						<td>
+							<div class="city">
+								<div class="sel-boxone sele" id="Tmcselect07">
+									<input for="label" type="text" readonly value="深圳">
+										<ul class="sel-list">
+											<li data="">深圳</li>
+											<li data="">上海</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="phone"><input type="text" /> </div></td>
+						<td><div class="qq"><input type="text" /> </div></td>
+						<td><div class="weichat"><input type="text" /> </div></td>
+						<td><div class="email"><input type="text" /> </div></td>
+						<td>
+							<p class="smallpic">
+								<a href="#"><img src="images/zjicon01.png" /> </a>
+								<a href="#"><img src="images/zjicon02.png" /> </a>
+								<a href="#"><img src="images/zjicon03.png" /> </a>
+								<a href="#"><img src="images/zjicon04.png" /> </a>
+								<a href="#"><img src="images/zjicon05.png" /> </a>
+								<a href="#"><img src="images/zjicon06.png" /> </a>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="images/5_card09.fw.png" /> </a></td>
+						<td><div class="name"><input type="text" /> </div></td>
+						<td>
+							<div class="sex">
+								<div class="sel-boxone sele" id="Tmcselect08">
+									<input for="label" type="text" readonly value="男">
+										<ul class="sel-list">
+											<li data="">男</li>
+											<li data="">女</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="age"><input type="text" /> </div></td>
+						<td>
+							<div class="city">
+								<div class="sel-boxone sele" id="Tmcselect09">
+									<input for="label" type="text" readonly value="深圳">
+										<ul class="sel-list">
+											<li data="">深圳</li>
+											<li data="">上海</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="phone"><input type="text" /> </div></td>
+						<td><div class="qq"><input type="text" /> </div></td>
+						<td><div class="weichat"><input type="text" /> </div></td>
+						<td><div class="email"><input type="text" /> </div></td>
+						<td>
+							<p class="smallpic">
+								<a href="#"><img src="images/zjicon01.png" /> </a>
+								<a href="#"><img src="images/zjicon02.png" /> </a>
+								<a href="#"><img src="images/zjicon03.png" /> </a>
+								<a href="#"><img src="images/zjicon04.png" /> </a>
+								<a href="#"><img src="images/zjicon05.png" /> </a>
+								<a href="#"><img src="images/zjicon06.png" /> </a>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="images/5_card09.fw.png" /> </a></td>
+						<td><div class="name"><input type="text" /> </div></td>
+						<td>
+							<div class="sex">
+								<div class="sel-boxone sele" id="Tmcselect10">
+									<input for="label" type="text" readonly value="男">
+										<ul class="sel-list">
+											<li data="">男</li>
+											<li data="">女</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="age"><input type="text" /> </div></td>
+						<td>
+							<div class="city">
+								<div class="sel-boxone sele" id="Tmcselect11">
+									<input for="label" type="text" readonly value="深圳">
+										<ul class="sel-list">
+											<li data="">深圳</li>
+											<li data="">上海</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="phone"><input type="text" /> </div></td>
+						<td><div class="qq"><input type="text" /> </div></td>
+						<td><div class="weichat"><input type="text" /> </div></td>
+						<td><div class="email"><input type="text" /> </div></td>
+						<td>
+							<p class="smallpic">
+								<a href="#"><img src="images/zjicon01.png" /> </a>
+								<a href="#"><img src="images/zjicon02.png" /> </a>
+								<a href="#"><img src="images/zjicon03.png" /> </a>
+								<a href="#"><img src="images/zjicon04.png" /> </a>
+								<a href="#"><img src="images/zjicon05.png" /> </a>
+								<a href="#"><img src="images/zjicon06.png" /> </a>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="images/5_card09.fw.png" /> </a></td>
+						<td><div class="name"><input type="text" /> </div></td>
+						<td>
+							<div class="sex">
+								<div class="sel-boxone sele" id="Tmcselect12">
+									<input for="label" type="text" readonly value="男">
+										<ul class="sel-list">
+											<li data="">男</li>
+											<li data="">女</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="age"><input type="text" /> </div></td>
+						<td>
+							<div class="city">
+								<div class="sel-boxone sele" id="Tmcselect13">
+									<input for="label" type="text" readonly value="深圳">
+										<ul class="sel-list">
+											<li data="">深圳</li>
+											<li data="">上海</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="phone"><input type="text" /> </div></td>
+						<td><div class="qq"><input type="text" /> </div></td>
+						<td><div class="weichat"><input type="text" /> </div></td>
+						<td><div class="email"><input type="text" /> </div></td>
+						<td>
+							<p class="smallpic">
+								<a href="#"><img src="images/zjicon01.png" /> </a>
+								<a href="#"><img src="images/zjicon02.png" /> </a>
+								<a href="#"><img src="images/zjicon03.png" /> </a>
+								<a href="#"><img src="images/zjicon04.png" /> </a>
+								<a href="#"><img src="images/zjicon05.png" /> </a>
+								<a href="#"><img src="images/zjicon06.png" /> </a>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="images/5_card09.fw.png" /> </a></td>
+						<td><div class="name"><input type="text" /> </div></td>
+						<td>
+							<div class="sex">
+								<div class="sel-boxone sele" id="Tmcselect14">
+									<input for="label" type="text" readonly value="男">
+										<ul class="sel-list">
+											<li data="">男</li>
+											<li data="">女</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="age"><input type="text" /> </div></td>
+						<td>
+							<div class="city">
+								<div class="sel-boxone sele" id="Tmcselect15">
+									<input for="label" type="text" readonly value="深圳">
+										<ul class="sel-list">
+											<li data="">深圳</li>
+											<li data="">上海</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="phone"><input type="text" /> </div></td>
+						<td><div class="qq"><input type="text" /> </div></td>
+						<td><div class="weichat"><input type="text" /> </div></td>
+						<td><div class="email"><input type="text" /> </div></td>
+						<td>
+							<p class="smallpic">
+								<a href="#"><img src="images/zjicon01.png" /> </a>
+								<a href="#"><img src="images/zjicon02.png" /> </a>
+								<a href="#"><img src="images/zjicon03.png" /> </a>
+								<a href="#"><img src="images/zjicon04.png" /> </a>
+								<a href="#"><img src="images/zjicon05.png" /> </a>
+								<a href="#"><img src="images/zjicon06.png" /> </a>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="images/5_card09.fw.png" /> </a></td>
+						<td><div class="name"><input type="text" /> </div></td>
+						<td>
+							<div class="sex">
+								<div class="sel-boxone sele" id="Tmcselect16">
+									<input for="label" type="text" readonly value="男">
+										<ul class="sel-list">
+											<li data="">男</li>
+											<li data="">女</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="age"><input type="text" /> </div></td>
+						<td>
+							<div class="city">
+								<div class="sel-boxone sele" id="Tmcselect17">
+									<input for="label" type="text" readonly value="深圳">
+										<ul class="sel-list">
+											<li data="">深圳</li>
+											<li data="">上海</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="phone"><input type="text" /> </div></td>
+						<td><div class="qq"><input type="text" /> </div></td>
+						<td><div class="weichat"><input type="text" /> </div></td>
+						<td><div class="email"><input type="text" /> </div></td>
+						<td>
+							<p class="smallpic">
+								<a href="#"><img src="images/zjicon01.png" /> </a>
+								<a href="#"><img src="images/zjicon02.png" /> </a>
+								<a href="#"><img src="images/zjicon03.png" /> </a>
+								<a href="#"><img src="images/zjicon04.png" /> </a>
+								<a href="#"><img src="images/zjicon05.png" /> </a>
+								<a href="#"><img src="images/zjicon06.png" /> </a>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="images/5_card09.fw.png" /> </a></td>
+						<td><div class="name"><input type="text" /> </div></td>
+						<td>
+							<div class="sex">
+								<div class="sel-boxone sele" id="Tmcselect18">
+									<input for="label" type="text" readonly value="男">
+										<ul class="sel-list">
+											<li data="">男</li>
+											<li data="">女</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="age"><input type="text" /> </div></td>
+						<td>
+							<div class="city">
+								<div class="sel-boxone sele" id="Tmcselect19">
+									<input for="label" type="text" readonly value="深圳">
+										<ul class="sel-list">
+											<li data="">深圳</li>
+											<li data="">上海</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="phone"><input type="text" /> </div></td>
+						<td><div class="qq"><input type="text" /> </div></td>
+						<td><div class="weichat"><input type="text" /> </div></td>
+						<td><div class="email"><input type="text" /> </div></td>
+						<td>
+							<p class="smallpic">
+								<a href="#"><img src="images/zjicon01.png" /> </a>
+								<a href="#"><img src="images/zjicon02.png" /> </a>
+								<a href="#"><img src="images/zjicon03.png" /> </a>
+								<a href="#"><img src="images/zjicon04.png" /> </a>
+								<a href="#"><img src="images/zjicon05.png" /> </a>
+								<a href="#"><img src="images/zjicon06.png" /> </a>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="images/5_card09.fw.png" /> </a></td>
+						<td><div class="name"><input type="text" /> </div></td>
+						<td>
+							<div class="sex">
+								<div class="sel-boxone sele" id="Tmcselect20">
+									<input for="label" type="text" readonly value="男">
+										<ul class="sel-list">
+											<li data="">男</li>
+											<li data="">女</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="age"><input type="text" /> </div></td>
+						<td>
+							<div class="city">
+								<div class="sel-boxone sele" id="Tmcselect21">
+									<input for="label" type="text" readonly value="深圳">
+										<ul class="sel-list">
+											<li data="">深圳</li>
+											<li data="">上海</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="phone"><input type="text" /> </div></td>
+						<td><div class="qq"><input type="text" /> </div></td>
+						<td><div class="weichat"><input type="text" /> </div></td>
+						<td><div class="email"><input type="text" /> </div></td>
+						<td>
+							<p class="smallpic">
+								<a href="#"><img src="images/zjicon01.png" /> </a>
+								<a href="#"><img src="images/zjicon02.png" /> </a>
+								<a href="#"><img src="images/zjicon03.png" /> </a>
+								<a href="#"><img src="images/zjicon04.png" /> </a>
+								<a href="#"><img src="images/zjicon05.png" /> </a>
+								<a href="#"><img src="images/zjicon06.png" /> </a>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="#"><img src="images/5_card09.fw.png" /> </a></td>
+						<td><div class="name"><input type="text" /> </div></td>
+						<td>
+							<div class="sex">
+								<div class="sel-boxone sele" id="Tmcselect22">
+									<input for="label" type="text" readonly value="男">
+										<ul class="sel-list">
+											<li data="">男</li>
+											<li data="">女</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="age"><input type="text" /> </div></td>
+						<td>
+							<div class="city">
+								<div class="sel-boxone sele" id="Tmcselect23">
+									<input for="label" type="text" readonly value="深圳">
+										<ul class="sel-list">
+											<li data="">深圳</li>
+											<li data="">上海</li>
+										</ul>
+								</div>
+							</div>
+						</td>
+						<td><div class="phone"><input type="text" /> </div></td>
+						<td><div class="qq"><input type="text" /> </div></td>
+						<td><div class="weichat"><input type="text" /> </div></td>
+						<td><div class="email"><input type="text" /> </div></td>
+						<td>
+							<p class="smallpic">
+								<a href="#"><img src="images/zjicon01.png" /> </a>
+								<a href="#"><img src="images/zjicon02.png" /> </a>
+								<a href="#"><img src="images/zjicon03.png" /> </a>
+								<a href="#"><img src="images/zjicon04.png" /> </a>
+								<a href="#"><img src="images/zjicon05.png" /> </a>
+								<a href="#"><img src="images/zjicon06.png" /> </a>
+							</p>
+						</td>
+					</tr>
+				</table>
+				</div>
+			
+			<div class="pages">
+				<span class="pages_tit">共10条记录  每页条数：</span>
+				<span class="total">
+					<div class="sel-boxone sele_head" id="Tmcselect24">
+									<input for="label" type="text" readonly value="20">
+									<ul class="sel-list">
+										<li data="">25</li>
+										<li data="3">30</li>
+										<li data="4">35</li>
+										<li data="5">40</li>
+										<div class="clear"></div>
+									</ul>
+					</div>
+				</span>
+				<p>
+					<span>&nbsp;</span>
+					<a href="#">跳转</a>
+					<a href="#"><</a>
+					<a href="#">3/5</a>
+					<a href="#">></a>
+				</p>
+			</div>
+			
+			<div class="btns">
+				<a href="#">+新增</a>
+				<a href="#">保存</a>
+			</div>
+			
+			</div>
+		</div> 
+<!--通用底部-->
+	<div class="footer">
+		<div class="line">
+			<p>联系我们</p>
+		</div>
+		<div class="footer_b">
+			<p>139 0293 3234</p>
+			<p>邮箱：service@gojoin.cn</p>
+			<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+		</div>
+	</div>			
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+$('#Tmcselect03').input();
+$('#Tmcselect04').input();
+$('#Tmcselect05').input();
+$('#Tmcselect06').input();
+$('#Tmcselect07').input();
+$('#Tmcselect08').input();
+$('#Tmcselect09').input();
+$('#Tmcselect10').input();
+$('#Tmcselect11').input();
+$('#Tmcselect12').input();
+$('#Tmcselect13').input();
+$('#Tmcselect14').input();
+$('#Tmcselect15').input();
+$('#Tmcselect16').input();
+$('#Tmcselect17').input();
+$('#Tmcselect18').input();
+$('#Tmcselect19').input();
+$('#Tmcselect20').input();
+$('#Tmcselect21').input();
+$('#Tmcselect22').input();
+$('#Tmcselect23').input();
+$('#Tmcselect24').input();
+</script>	
+	</body>
+</html>

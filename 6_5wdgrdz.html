@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>6_5我的个人地址簿</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/2_wdxiangmuzx.css" />
+		<link rel="stylesheet" href="css/6_wdcdzx.css" />		
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>
+		<script src="js/opens.js"></script>
+				
+	</head>
+	<body>
+	<!--通用头部-->
+		<div class="header">
+			<div class="header_t">
+				<div class="header_tr wrapper">
+					<ul>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">我的行程</a></li>
+						<li>
+							<div class="sel-boxone sele_head" id="Tmcselect01">
+								<input for="label" type="text" readonly value="Ryan的个人中心">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header_b wrapper">
+				<div class="header_L">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" /></a>
+					</div>
+					<div class="addr">
+						<p>深圳</p>
+					</div>
+				</div>
+				<div class="header_R">
+					<div class="menu">
+						<ul>
+							<li><a href="#">活动</a></li>
+							<li><a href="#">场地</a></li>
+							<li><a href="#">专题</a></li>
+							<li><a href="#">专家</a></li>							
+							<div class="clear"></div>
+						</ul>
+						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="搜索" />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+	
+	<!--我的信息的主题-->
+		<div class="wdxx wrapper">
+			<div class="wdxx_L">			
+				<div class="photo"><img src="images/zhuanjia01.jpg"/></div>
+				
+				<div class="menu">																								
+							<div class="sele_tt"><a onclick="opens(101)">个人中心</a></div>
+							<div class="sele_list" id="tr101">
+								<ul>
+									<li class="active"><a href="#">我的消息</a></li>
+									<li><a href="#">我的行事历</a></li>
+									<li><a href="#">我的活动</a></li>
+									<li><a href="#">我的圈子</a></li>
+									<li><a href="#">我的名片</a></li>
+									<li><a href="#">我的费用结算</a></li>
+									<li><a href="#">我的技能/专题</a></li>
+									<li><a href="#">我的认证</a></li>
+									<li><a href="#">我的好友</a></li>
+									<li><a href="#">我的账户</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(102)">活动中心</a></div>
+							<div class="sele_list" id="tr102">
+								<ul>
+									<li><a href="#">发布活动</a></li>
+									<li><a href="#">活动报名</a></li>
+									<li><a href="#">活动签到</a></li>
+									<li><a href="#">人员分组</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(103)">技能/课题中心</a></div>
+							<div class="sele_list" id="tr103">
+								<ul>
+									<li><a href="#">课题中心</a></li>
+									<li><a href="#">技能地图</a></li>
+									<li><a href="#">认证项目</a></li>
+									<li><a href="#">专题圈子</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(104)">专家服务中心</a></div>
+							<div class="sele_list" id="tr104">
+								<ul>
+									<li><a href="#">专家行程</a></li>
+									<li><a href="#">专家档案</a></li>
+									<li><a href="#">专家库</a></li>
+									<li><a href="#">专家认证</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(105)">场地中心</a></div>
+							<div class="sele_list" id="tr105">
+								<ul>
+									<li><a href="#">发布场地</a></li>
+									<li><a href="#">场地管理</a></li>
+									<li><a href="#">我的地址</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(106)">财务中心</a></div>
+							<div class="sele_list" id="tr106">
+								<ul>
+									<li><a href="#">我的报销单</a></li>
+									<li><a href="#">我的收据</a></li>
+									<li><a href="#">我的发票</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(107)">系统管理</a></div>
+							<div class="sele_list" id="tr107">
+								<ul>
+									<li><a href="#">系统角色配置</a></li>
+									<li><a href="#">日历模板配置</a></li>
+									<li><a href="#">搜索模板配置</a></li>
+								</ul>
+							</div>
+				
+				</div>
+				<div class="loginout"><a href="#">退出</a></div>
+				
+			</div><!--wdxx_L-->
+			
+			<div class="wdxx_R">
+				<div class="quickadd">快捷添加场地地址信息：</div>
+				<p class="tip"><span>新增联系地址</span>  电话号码、手机号码选填一项，其余均为必填项</p>
+				<div class="detaddrwrap">
+			<!--表格-->
+					<table>
+						<tr>
+							<td width="95px"><p class="tdtit01">场地类别<span>*</span></p></td>
+							<td width="505px">
+								<div class="pull_down01">
+									<div class="sel-boxone sele" id="Tmcselect02">
+										<input for="label" type="text" readonly value="家庭住所">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<div class="input01"><input type="text" placeholder="场地名称，20字以内" /> </div>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="tdtit01">所在地区<span>*</span></p></td>
+							<td>
+								<div class="pull_down01">
+									<div class="sel-boxone sele" id="Tmcselect03">
+										<input for="label" type="text" readonly value="中国大陆">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect04">
+										<input for="label" type="text" readonly value="选择省市区">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2"><div class="input02"><textarea>详细地址：建议您如实填写详细地址，门牌编号，楼层和房间号等信息 </textarea> </div>
+								<a href="#" class="addr"><img src="images/addr.fw.png" /> </a></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit01">邮政编码</p></td>
+							<td><div class="input03"><input type="text" /> </div></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit01">联系人姓名<span>*</span></p></td>
+							<td><div class="input03"><input type="text" /> </div></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit01">手机号码</p></td>
+							<td>
+								<div class="pull_down01">
+									<div class="sel-boxone sele" id="Tmcselect05">
+										<input for="label" type="text" readonly value="中国大陆+86">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<div class="input01"><input type="text" /> </div>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="tdtit01">电话号码</p></td>
+							<td>
+								<div class="pull_down01">
+									<div class="sel-boxone sele" id="Tmcselect06">
+										<input for="label" type="text" readonly value="中国大陆+86">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<div class="input04"><input type="text" /> </div>
+								<div class="input05"><input type="text" /> </div>
+								<div class="input04"><input type="text" /> </div>
+							</td>
+						</tr>
+					</table>
+			<!--完善信息-->	
+					<div class="Perfectinf">
+						<a href="#"><img src="images/xzwdmp.fw.png" /></a>
+						<a href="#">+完善信息</a>
+					</div>
+			<!--设置默认-->
+				<div class="setdef"><span><input type="radio" id="set" /> </span> <label for="set">设置为默认联系地址</label></div>
+				<div class="btns"><a href="#">保存</a> </div>
+				
+				</div><!--detaddrwrap-->
+		<!--table-->		
+			<div class="tablewrap">
+				<div class="top">
+					<div class="pull_down01">
+						<div class="sel-boxone sele" id="Tmcselect02">
+							<input for="label" type="text" readonly value="家庭住所">
+							<ul class="sel-list">
+								<li data="">效果图</li>
+								<li data="3">主材</li>
+								<li data="4">辅材</li>
+								<li data="5">软装</li>
+								<div class="clear"></div>
+							</ul>
+						</div>
+					</div>
+					 
+					 <span>已保存18条地址</span>
+					 <div class="clear"></div>
+				</div>
+				
+				<div class="table">
+					<table>
+						<tr>
+							<th width="95px">联系人 </th>
+							<th width="155px">所在地区</th>
+							<th width="245px">详细地址</th>
+							<th width="80px">邮编 </th>
+							<th width="110px">手机/电话</th>
+							<th width="80px">详细</th>
+							<th width="125px">操作</th>
+						</tr>
+						<tr>
+							<td><p class="tdtit02">段士瑞</p></td>
+							<td><div class="tdinf">广东省深圳市南山区 </div></td>
+							<td><div class="tdinf">西海明珠花园E栋1404房 </div></td>
+							<td><div class="tdinf">518000 </div></td>
+							<td><div class="tdinf">13*******34 </div></td>
+							<td><p class="detail"><a href="#"><img src="images/5_card09.fw.png" /></a> </p></td>
+							<td><p class="caozuo "><a href="#">*修改 </a> <a href="#">*删除</a></p></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit02">段士瑞</p></td>
+							<td><div class="tdinf">广东省深圳市南山区 </div></td>
+							<td><div class="tdinf">西海明珠花园E栋1404房 </div></td>
+							<td><div class="tdinf">518000 </div></td>
+							<td><div class="tdinf">13*******34 </div></td>
+							<td><p class="detail"><a href="#"><img src="images/5_card09.fw.png" /></a> </p></td>
+							<td><p class="caozuo "><a href="#">*修改 </a> <a href="#">*删除</a></p></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit02">段士瑞</p></td>
+							<td><div class="tdinf">广东省深圳市南山区 </div></td>
+							<td><div class="tdinf">西海明珠花园E栋1404房 </div></td>
+							<td><div class="tdinf">518000 </div></td>
+							<td><div class="tdinf">13*******34 </div></td>
+							<td><p class="detail"><a href="#"><img src="images/5_card09.fw.png" /></a> </p></td>
+							<td><p class="caozuo "><a href="#">*修改 </a> <a href="#">*删除</a></p></td>
+						</tr>
+						<tr class="default">
+							<td><p class="tdtit02">段士瑞</p></td>
+							<td><div class="tdinf">广东省深圳市南山区 </div></td>
+							<td><div class="tdinf">西海明珠花园E栋1404房 </div></td>
+							<td><div class="tdinf">518000 </div></td>
+							<td><div class="tdinf">13*******34 </div></td>
+							<td><p class="detail"><a href="#"><img src="images/5_card09.fw.png" /></a> </p></td>
+							<td><p class="caozuo "><a href="#">*修改 </a> <a href="#">*删除</a></p></td>
+						</tr>
+						<tr class="defaddr">
+							<td><p class="tdtit02">段士瑞</p></td>
+							<td><div class="tdinf">广东省深圳市南山区 </div></td>
+							<td><div class="tdinf">西海明珠花园E栋1404房 </div></td>
+							<td><div class="tdinf">518000 </div></td>
+							<td><div class="tdinf">13*******34 </div></td>
+							<td><p class="detail"><a href="#"><img src="images/5_card09.fw.png" /></a> </p></td>
+							<td><p class="caozuo "><a href="#">*修改 </a> <a href="#">*删除</a></p></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit02">段士瑞</p></td>
+							<td><div class="tdinf">广东省深圳市南山区 </div></td>
+							<td><div class="tdinf">西海明珠花园E栋1404房 </div></td>
+							<td><div class="tdinf">518000 </div></td>
+							<td><div class="tdinf">13*******34 </div></td>
+							<td><p class="detail"><a href="#"><img src="images/5_card09.fw.png" /></a> </p></td>
+							<td><p class="caozuo "><a href="#">*修改 </a> <a href="#">*删除</a></p></td>
+						</tr>
+						<tr>
+							<td><p class="tdtit02">段士瑞</p></td>
+							<td><div class="tdinf">广东省深圳市南山区 </div></td>
+							<td><div class="tdinf">西海明珠花园E栋1404房 </div></td>
+							<td><div class="tdinf">518000 </div></td>
+							<td><div class="tdinf">13*******34 </div></td>
+							<td><p class="detail"><a href="#"><img src="images/5_card09.fw.png" /></a> </p></td>
+							<td><p class="caozuo "><a href="#">*修改 </a> <a href="#">*删除</a></p></td>
+						</tr>
+					</table>
+				</div>
+			
+			<!--页面-->
+				<div class="pages">
+					<a href="#"><</a>
+					<a href="#"><<</a>
+					<a href="#" class="cur">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">6</a>
+					<a href="#">7</a>
+					<a href="#">8</a>
+					<a href="#">9</a>
+					<a href="#">10</a>
+					<a href="#">></a>
+					<a href="#">>></a>
+				</div>
+			</div>
+			
+				
+			</div><!--wdxx_R-->						
+			<div class="clear"></div>
+		</div>
+<!--通用底部-->
+		<div class="footer">
+			<div class="line">
+				<p>联系我们</p>
+			</div>
+			<div class="footer_b">
+				<p>139 0293 3234</p>
+				<p>邮箱：service@gojoin.cn</p>
+				<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+			</div>
+		</div>
+
+
+
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+$('#Tmcselect03').input();
+$('#Tmcselect04').input();
+$('#Tmcselect05').input();
+$('#Tmcselect06').input();
+</script>	
+	</body>
+</html>

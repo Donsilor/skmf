@@ -1,0 +1,196 @@
+/*********************8_1_系统角色配置*******************************/
+.opts{border: 2px solid #FF6533;margin: 25px 0;padding-bottom: 25px;}
+.roleset .opts .settit{background: url(../images/set.fw.png) no-repeat left;padding-left: 55px;height: 65px;margin: 0 10px;}
+.roleset .opts .settit h1{color: #FF6533;font-size: 22px;line-height: 65px;}
+.roleset .opts .btns{padding-top: 10px;padding-left: 45px;}
+.roleset .opts .btns a{display: inline-block;width: 100px;height: 30px;border: 1px solid #999;border-radius: 5px;font-size: 16px;text-align: center;line-height: 28px;color: #333;}
+.roleset .opts .table{margin: 15px 0 20px 0;}
+.roleset .opts .table table{width: 1170px;margin: 0 auto;border: 1px solid #FF6533; border-collapse: collapse;}
+.roleset .opts .table table th{border: 1px solid #FF6533;height: 45px;color: #FF6533;font-size: 16px;}
+.roleset .opts .table table td{border: 1px solid #FF6533;height: 45px;}
+.roleset .opts .table table td p{text-align: center;color: #333;font-size: 16px;}
+.roleset .opts .table table .zaozuo{text-align: center;}
+.roleset .opts .table table .zaozuo a{color: #008FE7;text-decoration: underline;padding-left: 10px;}
+
+.roleset .opts  .pages{text-align: right;padding-right: 15px;}
+.roleset .opts  .pages .pages_tit{display: inline-block;font-size: 14px;color: #333;}
+.roleset .opts  .pages .total{width: 46px;height: 28px;border: 1px solid #3366CC;display: inline-block;}
+.roleset .opts  .pages .total input{border: none;outline: none;width: 100%;height: 100%;color: #333;background: url(../images/down.png) no-repeat 23px;
+font-size: 15px;padding-left: 2px;}
+.roleset .opts  .pages .total .sele{position: relative;line-height: 24px;}
+.roleset .opts  .pages .total .sel-list{background: #fff;position: absolute; width: 46px; top: 25px; left: -1px;border: 1px solid #3366CC;border-top: none;}
+.roleset .opts  .pages .total .sel-list li{height: 30px;line-height: 30px;cursor: pointer;color: #656766;font-size: 14px;padding-left: 10px;}
+.roleset .opts  .pages .total .sel-list li:hover{color: #fff;background: #008fe7;}
+.roleset .opts  .pages p{display: inline-block;text-align: center;}
+.roleset .opts  .pages p a{display: inline-block;width: 46px;height: 28px;border: 1px solid #3366CC;color: #333;font-size: 15px;line-height: 26px;}
+.roleset .opts  .pages p span{display: inline-block;width: 46px;height: 28px;border: 1px solid #3366CC;}
+
+
+/*********************8_2_01行事历模板配置  日模板*******************************/
+.templet .btns{padding-top: 20px;}
+.templet .btns .active{color: #fff;background: #FF6533;}
+.templet .btns a{display: inline-block;width: 105px;height: 28px;border: 1px solid #FF6633;border-radius: 5px;font-size: 12px;color: #FF6533;margin-right: 15px;text-align: center;line-height: 26px;}
+.daytemplet .opts .tit h1{color: #FF6533;font-size: 18px;float: left;padding-left: 15px;}
+.daytemplet .opts .tit{padding: 20px 0 10px 0;}
+.daytemplet .opts .tit .pull_down01{width: 165px;height: 28px;border: 1px solid #FF6533;margin-left: 430px;float: left;}
+.daytemplet .opts .tit .pull_down01 input{border: none;outline: none;width: 100%;color: #3365CB;background: url(../images/fabutz05.fw.png) no-repeat 140px,#fff;
+padding-left: 10px;font-size: 14px;height: 26px;}
+.daytemplet .opts .tit .pull_down01 .sele{position: relative;line-height: 24px;}
+.daytemplet .opts .tit .pull_down01 .sel-list{background: #fff;position: absolute; width: 165px; top: 25px; left: -1px;border: 1px solid #FF6533;border-top: none;}
+.daytemplet .opts .tit .pull_down01 .sel-list li{height: 30px;line-height: 30px;cursor: pointer;color: #656766;font-size: 14px;padding-left: 10px;}
+.daytemplet .opts .tit .pull_down01 .sel-list li:hover{color: #fff;background: #008fe7;}
+.daytemplet .table table{border: 1px solid #FF6533;border-collapse: collapse;width: 1170px;margin: 0 auto;}
+.daytemplet .table table th{border: 1px solid #FF6533;height: 48px;color: #FF6533;font-size: 16px;}
+.daytemplet .table table td{border: 1px solid #FF6533;height: 48px;color: #333;font-size: 16px;}
+.daytemplet .table table td .time{text-align: center;}
+.daytemplet .table table td .time input[type=checkbox]{appearance:none; -moz-appearance:none; -webkit-appearance:none; width: 12px; height: 12px; background: url(../images/icon_22.jpg) no-repeat center; outline: none;
+margin-top: 5px;margin-left: 60px;float: left;}
+.daytemplet .table table td .time input[type=checkbox]:checked{background: url(../images/icon_21.jpg) no-repeat center;}
+.daytemplet .table table td .time label{float: left;padding-left: 3px;}
+.daytemplet .table table td p{text-align: center;}
+.daytemplet .table table td .caozuo a{color: #333;padding-left: 5px;}
+/*提交*/
+.submit {text-align: right;margin-top: 15px;}
+.submit a{display: inline-block;width: 100px;height: 30px;border: 1px solid #999;border-radius: 5px;text-align: center;line-height: 28px;font-size: 16px;color: #333;margin-right: 15px;}
+
+/*********************8_2_02行事历模板配置  周模板*******************************/
+.weektemplet{margin-bottom: 20px;}
+.weektemplet .tit{margin-top: 20px;}
+.weektemplet .tit h1{color: #333;font-size: 14px;float: left;padding-left: 15px;}
+.weektemplet .tit h1 span{color: #FF6533;}
+.weektemplet .tit .pull_down01{width: 165px;height: 28px;border: 1px solid #FF6533;margin-left: 430px;float: left;}
+.weektemplet .tit .pull_down01 input{border: none;outline: none;width: 100%;color: #3365CB;background: url(../images/fabutz05.fw.png) no-repeat 140px,#fff;
+padding-left: 10px;font-size: 14px;height: 26px;}
+.weektemplet .tit .pull_down01 .sele{position: relative;line-height: 24px;}
+.weektemplet .tit .pull_down01 .sel-list{background: #fff;position: absolute; width: 165px; top: 25px; left: -1px;border: 1px solid #FF6533;border-top: none;}
+.weektemplet .tit .pull_down01 .sel-list li{height: 30px;line-height: 30px;cursor: pointer;color: #656766;font-size: 14px;padding-left: 10px;}
+.weektemplet .tit .pull_down01 .sel-list li:hover{color: #fff;background: #008fe7;}
+.weektemplet .table table{border-collapse: collapse;}
+.weektemplet .table table th{width: 150px;height: 100px;}
+.weektemplet .table table .thfirst{border: 2px solid #646565;border-right: none;}
+.weektemplet .table table td{width: 150px;border: 2px solid #646565;height: 100px;}
+.weektemplet .table table th .top{height: 60px;background: #F29438;color: #fff;}
+.weektemplet .table table th .bot{height: 40px;background: #323434;color: #fff;}
+.weektemplet .table table th .bot li{float: left;width: 149px;}
+/*周计划表*/
+.zjh_table{width: 1400px;margin: auto;padding-top: 20px;}
+.zjh_table .zjh_th{border-top: 1px solid #494949;border-left: 1px solid #494949;}
+.zjh_table td{height: 115px;width: 175px;border-top: 1px solid #494949;border-collapse: collapse;border-left: 1px solid #494949;position: relative;}
+.zjh_table .tit_T{height: 60px;background: 1225px;background: #F29538;font-size: 40px;color: #fff;}
+.zjh_table .tit_T p{display: inline-block;float: left;padding-left: 20px;font-weight: 100;}
+.zjh_table .tit_T span{display: inline-block;float: right;padding-right: 20px;font-weight: 100;}
+.zjh_table .tit_B li{float: left;width: 175px;height: 35px;background: #323433;color: #fff;line-height: 35px;}
+.zjh_table .tit_B li span{display: inline-block;float: right;background: url(../images/week_border.png) no-repeat right;padding-right: 15px;}
+.zjh_table .tit_B li p{display: inline-block;padding-left: 5px;}
+.zjh_table .tit_B li:last-child span{background: none;}
+.zjh_table .tit_B li:last-child{width: 173px;}
+.zjh_table .name{color: #333;text-align: center;}
+.zjh_table  .time{width: 117px;float: left;}
+.zjh_table  .time .am,.pm{font-size: 16px;text-align: center;line-height: 95px;height: 102px;}
+.zjh_table  .time .am{border-bottom: 1px solid #494949;}
+.zjh_table  .time .pm{border-bottom: 1px solid #494949;}
+.zjh_table  .time a{color: #333;}
+.zjh_table td .smallpic{position: absolute;right: 10px;bottom: 0;}
+.zjh_table td:last-child{border-right: 1px solid #494949;}
+.zjh_table .last_td td{border-bottom: 1px solid #494949;font-size: 16px;text-align: center;}
+.zjh_table .last_td p{text-align: center;}
+
+/*********************8_2_03行事历模板配置  月模板*******************************/
+.monthtemplet{margin-bottom: 20px;}
+.monthtemplet .tit .date{width: 90px;height: 90px;border-radius: 50%;float: right;border: 1px solid #ccc;text-align: center;}
+.monthtemplet .tit .date p{font-size: 10px;color: #F29239;background: url(../images/date_down.png) no-repeat 70px 23px;padding-top: 20px;}
+.monthtemplet .tit .date b{display: block;}
+.monthtemplet .tit .date span{color: #333333;font-size: 12px;text-align: center;background: url(../images/addr_down.png) no-repeat 65px;
+display: inline-block;width: 90px;}
+.monthtemplet .tit .pull_down01{width: 165px;height: 28px;border: 1px solid #FF6533;margin:30px 0 0 580px;float: left;}
+.monthtemplet .tit .pull_down01 input{border: none;outline: none;width: 100%;color: #3365CB;background: url(../images/fabutz05.fw.png) no-repeat 140px,#fff;
+padding-left: 10px;font-size: 14px;height: 26px;}
+.monthtemplet .tit .pull_down01 .sele{position: relative;line-height: 24px;}
+.monthtemplet .tit .pull_down01 .sel-list{background: #fff;position: absolute; width: 165px; top: 25px; left: -1px;border: 1px solid #FF6533;border-top: none;}
+.monthtemplet .tit .pull_down01 .sel-list li{height: 30px;line-height: 30px;cursor: pointer;color: #656766;font-size: 14px;padding-left: 10px;}
+.monthtemplet .tit .pull_down01 .sel-list li:hover{color: #fff;background: #008fe7;}
+
+/*********************8_2_04行事历模板配置  年模板*******************************/
+.yeartemplet{margin-bottom: 20px;}
+.yeartemplet .tit{padding: 20px 0 10px 0;}
+.yeartemplet .tit .year{color: #333;font-size: 14px;float: left;font-weight: bold;line-height: 28px;}
+.yeartemplet .tit .time{float: left;margin-left: 45px;}
+.yeartemplet .tit .time .input01{border: 1px solid #FF6533;width: 165px;height: 28px;color: #999;font-size: 14px;margin-left: 10px;}
+.yeartemplet .tit .time .input01 input{border: none;width: 100%;height: 100%;padding-left: 10px;}
+.yeartemplet .tit .time>div{float: left;}
+.yeartemplet .tit .time .line{margin-left: 10px;}
+.yeartemplet .tit .pull_down01{width: 165px;height: 28px;border: 1px solid #FF6533;margin-left:730px;}
+.yeartemplet .tit .pull_down01 input{border: none;outline: none;width: 100%;color: #3365CB;background: url(../images/fabutz05.fw.png) no-repeat 140px,#fff;
+padding-left: 10px;font-size: 14px;height: 26px;}
+.yeartemplet .tit .pull_down01 .sele{position: relative;line-height: 24px;}
+.yeartemplet .tit .pull_down01 .sel-list{background: #fff;position: absolute; width: 165px; top: 25px; left: -1px;border: 1px solid #FF6533;border-top: none;}
+.yeartemplet .tit .pull_down01 .sel-list li{height: 30px;line-height: 30px;cursor: pointer;color: #656766;font-size: 14px;padding-left: 10px;}
+.yeartemplet .tit .pull_down01 .sel-list li:hover{color: #fff;background: #008fe7;}
+.yeartemplet .table table{border: 1px solid #FF6533;border-collapse: collapse;}
+.yeartemplet .table table th{border: 1px solid #FF6533;font-size: 16px;color: #FF6533;height: 50px;}
+.yeartemplet .table table td{border: 1px solid #FF6533;font-size: 16px;color: #FF6533;height: 80px;}
+.yeartemplet .table table td p{text-align: center;color: #333333;font-size: 14px;}
+
+/*********************8_3_01搜索引擎模板*******************************/
+.templet .templet_tit{background: url(../images/8_05.fw.png) no-repeat left;padding-left: 55px;height: 65px;}
+.templet .templet_tit h1{color: #FF6533;font-size: 22px;line-height: 65px;}
+.allsearch .table table{width: 900px;margin: 20px auto 0;}
+.allsearch .table table td{padding-bottom: 20px;}
+.allsearch .table table .tdtit{color: #333;font-size: 16px;float: left;line-height: 35px;}
+.allsearch .table table .pull_down01{width: 100px;height: 35px;border: 1px solid #FF6533;float: left;}
+.allsearch .table table .pull_down01 input{border: none;outline: none;width: 100%;color: #3365CB;background: url(../images/fabutz05.fw.png) no-repeat 75px,#fff;
+padding-left: 10px;font-size: 14px;height: 33px;}
+.allsearch .table table .pull_down01 .sele{position: relative;line-height: 30px;}
+.allsearch .table table .pull_down01 .sel-list{background: #fff;position: absolute; width: 100px; top: 32px; left: -1px;border: 1px solid #FF6533;border-top: none;}
+.allsearch .table table .pull_down01 .sel-list li{height: 30px;line-height: 30px;cursor: pointer;color: #656766;font-size: 14px;padding-left: 10px;}
+.allsearch .table table .pull_down01 .sel-list li:hover{color: #fff;background: #008fe7;}
+.allsearch .table table .time{float: left;}
+.allsearch .table table .time .line{float: left;margin-right: 15px;line-height: 35px;}
+.allsearch .table table .input01{width: 155px;height: 35px;border: 1px solid #FF6533;float: left;margin-right: 15px;}
+.allsearch .table table .input01 input{border: none;width: 100%;height: 100%;background: url(../images/detail01.fw.png) no-repeat 130px;color: #999;font-size: 14px;padding-left: 10px;}
+.allsearch .table table .range{float: left;color: #333;font-size: 12px;line-height: 35px;}
+.allsearch .table table .guanbi{float: right;padding-top:9px;}
+.allsearch .table table .guanbi02{float: left;padding:9px 15px 0;}
+
+.allsearch .table table .input02{width: 435px;height: 35px;border: 1px solid #FF6533;float: left;margin-right: 15px;}
+.allsearch .table table .input02 input{border: none;width: 100%;height: 100%;background: url(../images/8_06.fw.png) no-repeat 415px;color: #999;font-size: 14px;padding-left: 10px;}
+
+.allsearch .table table .pull_down02{width: 130px;height: 35px;border: 1px solid #FF6533;float: left;margin-right: 15px;}
+.allsearch .table table .pull_down02 input{border: none;outline: none;width: 100%;color: #3365CB;background: url(../images/fabutz05.fw.png) no-repeat 105px,#fff;
+padding-left: 10px;font-size: 14px;height: 33px;}
+.allsearch .table table .pull_down02 .sele{position: relative;line-height: 30px;}
+.allsearch .table table .pull_down02 .sel-list{background: #fff;position: absolute; width: 130px; top: 32px; left: -1px;border: 1px solid #FF6533;border-top: none;}
+.allsearch .table table .pull_down02 .sel-list li{height: 30px;line-height: 30px;cursor: pointer;color: #656766;font-size: 14px;padding-left: 10px;}
+.allsearch .table table .pull_down02 .sel-list li:hover{color: #fff;background: #008fe7;}
+.allsearch .table table .belongs{float: right;}
+.allsearch .table table .belongs .jigou{width: 275px;}
+.allsearch .table table .belongs .jigou input{background: url(../images/8_06.fw.png) no-repeat 255px;}
+/*按钮*/
+.searchyq{text-align: right;padding-right: 70px;}
+.searchyq a{height: 35px;display: inline-block;color: #fff;font-size: 14px;text-align: center;line-height: 35px;background: #FF9933;border-radius: 5px;margin-right: 35px;}
+.searchyq .query{width: 75px;}
+.searchyq .location{width: 150px;}
+
+/*********************8_3_02搜索引擎模板*******************************/
+.allsearch .table table .add{float: left;line-height: 35px;}
+.allsearch .table table .add a{color: #3365CB;font-size: 14px;}
+.allsearch .table table .tdtit02{color: #333;font-size: 16px;float: left;line-height: 35px;padding-left: 80px;}
+
+/*********************8_3_03搜索引擎模板*******************************/
+.allsearch .table table .pull_down03{width: 205px;height: 35px;border: 1px solid #FF6533;float: left;margin-right: 15px;}
+.allsearch .table table .pull_down03 input{border: none;outline: none;width: 100%;color: #3365CB;background: url(../images/fabutz05.fw.png) no-repeat 180px,#fff;
+padding-left: 10px;font-size: 14px;height: 33px;}
+.allsearch .table table .pull_down03 .sele{position: relative;line-height: 30px;}
+.allsearch .table table .pull_down03 .sel-list{background: #fff;position: absolute; width: 205px; top: 32px; left: -1px;border: 1px solid #FF6533;border-top: none;}
+.allsearch .table table .pull_down03 .sel-list li{height: 30px;line-height: 30px;cursor: pointer;color: #656766;font-size: 14px;padding-left: 10px;}
+.allsearch .table table .pull_down03 .sel-list li:hover{color: #fff;background: #008fe7;}
+.allsearch .table table .input03{width:230px;height: 35px;border: 1px solid #FF6533;float: left;margin-right: 15px;}
+.allsearch .table table .input03 input{border: none;width: 100%;height: 100%;color: #999;font-size: 14px;padding-left: 10px;}
+.allsearch .table table .addr{float: left;margin-top: 9px;margin-right: 15px;}
+.allsearch .table table .range02{color: #333;font-size: 14px;float: left;line-height: 35px;}
+.allsearch .table table .more{font-size: 14px;padding-left: 80px;line-height: 35px;}
+.allsearch .table table .more a{color: #3365CB;}
+.allsearch .table table .input04{width: 120px;height: 35px;border: 1px solid #FF6533;float: left;margin-right: 15px;}
+.allsearch .table table .input04 input{border: none;width: 100%;height: 100%;color: #999;font-size: 14px;padding-left: 10px;}
+.allsearch .table table .tdtit03{color: #333;font-size: 16px;float: left;line-height: 35px;padding-right: 15px;}
+.allsearch .table table .bookzt{margin-left: 300px;}

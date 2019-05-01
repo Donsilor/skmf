@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>2-2我的信息</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/2_wdxiangmuzx.css" />
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>
+		<script src="js/opens.js"></script>
+				
+	</head>
+	<body>
+	<!--通用头部-->
+		<div class="header">
+			<div class="header_t">
+				<div class="header_tr wrapper">
+					<ul>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">我的行程</a></li>
+						<li>
+							<div class="sel-boxone sele_head" id="Tmcselect01">
+								<input for="label" type="text" readonly value="Ryan的个人中心">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header_b wrapper">
+				<div class="header_L">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" /></a>
+					</div>
+					<div class="addr">
+						<p>深圳</p>
+					</div>
+				</div>
+				<div class="header_R">
+					<div class="menu">
+						<ul>
+							<li><a href="#">活动</a></li>
+							<li><a href="#">场地</a></li>
+							<li><a href="#">专题</a></li>
+							<li><a href="#">专家</a></li>							
+							<div class="clear"></div>
+						</ul>
+						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="搜索" />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+	
+	<!--我的信息的主题-->
+		<div class="wdxx wrapper">
+			<div class="wdxx_L">			
+				<div class="photo"><img src="images/zhuanjia01.jpg"/></div>
+				
+				<div class="menu">																								
+							<div class="sele_tt"><a onclick="opens(101)">个人中心</a></div>
+							<div class="sele_list" id="tr101">
+								<ul>
+									<li class="active"><a href="#">我的消息</a></li>
+									<li><a href="#">我的行事历</a></li>
+									<li><a href="#">我的活动</a></li>
+									<li><a href="#">我的圈子</a></li>
+									<li><a href="#">我的名片</a></li>
+									<li><a href="#">我的费用结算</a></li>
+									<li><a href="#">我的技能/专题</a></li>
+									<li><a href="#">我的认证</a></li>
+									<li><a href="#">我的好友</a></li>
+									<li><a href="#">我的账户</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(102)">活动中心</a></div>
+							<div class="sele_list" id="tr102">
+								<ul>
+									<li><a href="#">发布活动</a></li>
+									<li><a href="#">活动报名</a></li>
+									<li><a href="#">活动签到</a></li>
+									<li><a href="#">人员分组</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(103)">技能/课题中心</a></div>
+							<div class="sele_list" id="tr103">
+								<ul>
+									<li><a href="#">课题中心</a></li>
+									<li><a href="#">技能地图</a></li>
+									<li><a href="#">认证项目</a></li>
+									<li><a href="#">专题圈子</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(104)">专家服务中心</a></div>
+							<div class="sele_list" id="tr104">
+								<ul>
+									<li><a href="#">专家行程</a></li>
+									<li><a href="#">专家档案</a></li>
+									<li><a href="#">专家库</a></li>
+									<li><a href="#">专家认证</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(105)">场地中心</a></div>
+							<div class="sele_list" id="tr105">
+								<ul>
+									<li><a href="#">发布场地</a></li>
+									<li><a href="#">场地管理</a></li>
+									<li><a href="#">我的地址</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(106)">财务中心</a></div>
+							<div class="sele_list" id="tr106">
+								<ul>
+									<li><a href="#">我的报销单</a></li>
+									<li><a href="#">我的收据</a></li>
+									<li><a href="#">我的发票</a></li>
+								</ul>
+							</div>
+							
+							<div class="sele_tt"><a onclick="opens(107)">系统管理</a></div>
+							<div class="sele_list" id="tr107">
+								<ul>
+									<li><a href="#">系统角色配置</a></li>
+									<li><a href="#">日历模板配置</a></li>
+									<li><a href="#">搜索模板配置</a></li>
+								</ul>
+							</div>
+				
+				</div>
+				<div class="loginout"><a href="#">退出</a></div>
+				
+			</div><!--wdxx_L-->
+			
+			<div class="wdxx_R">
+				<div class="bianji01">
+					<a href="#"><img src="images/shouxin.fw.png" align="absmiddle"><span>收信</span></a>
+					<a href="#"><img src="images/xiexin.fw.png" align="absmiddle"><span>写信</span></a>
+					<a href="#"><img src="images/shezhi.fw.png" align="absmiddle"><span>屏蔽设置</span></a>					
+				</div>
+				
+				<div class="bianji02">
+					<h6 class="h6_1"><a href="#">批量管理</a></h6>
+					<h6 class="h6_2"><a href="#">标记已读</a></h6>
+					
+				</div>
+				<div class="clear"></div>
+	<!--聊天记录-->
+				<a href="#"><div class="title"><span>我</span>与<span>古都的风</span>的私信（共两条）</div></a>
+				
+				<div class="chatinfo">
+					
+					<div class="chat_L">
+						<ul>
+							<li class="active">
+								<div>
+									<div class="imgs"> <img src="images/chat01.jpg" /> </div>
+									<span><b>古都的风：</b>我收集的也缺少这个章节我收集的也缺少这个章节我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+							
+							<li>
+								<div>
+									<div class="imgs"> <img src="images/chat02.jpg" /> </div>
+									<span><b>王翔凌：</b>我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+							
+							<li>
+								<div>
+									<div class="imgs"> <img src="images/chat03.jpg" /> </div>
+									<span><b>用微笑找幸福：</b>我收集的也缺少这个章节我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+							
+							<li>
+								<div>
+									<div class="imgs"> <img src="images/chat01.jpg" /> </div>
+									<span><b>古都的风：</b>我收集的也缺少这个章节我收集的也缺少这个章节我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+							
+							<li>
+								<div>
+									<div class="imgs"> <img src="images/chat02.jpg" /> </div>
+									<span><b>王翔凌：</b>我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+							
+							<li>
+								<div>
+									<div class="imgs"> <img src="images/chat03.jpg" /> </div>
+									<span><b>用微笑找幸福：</b>我收集的也缺少这个章节我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+							
+							
+							<li>
+								<div>
+									<div class="imgs"> <img src="images/chat01.jpg" /> </div>
+									<span><b>古都的风：</b>我收集的也缺少这个章节我收集的也缺少这个章节我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+							
+							<li>
+								<div>
+									<div class="imgs"> <img src="images/chat02.jpg" /> </div>
+									<span><b>王翔凌：</b>我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+							
+							<li>
+								<div>
+									<div class="imgs"> <img src="images/chat03.jpg" /> </div>
+									<span><b>用微笑找幸福：</b>我收集的也缺少这个章节我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+							
+							<li>
+								<div>
+									<div class="imgs"> <img src="images/chat01.jpg" /> </div>
+									<span><b>古都的风：</b>我收集的也缺少这个章节我收集的也缺少这个章节我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+							
+							<li>
+								<div>
+									<div class="imgs"> <img src="images/chat02.jpg" /> </div>
+									<span><b>王翔凌：</b>我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+							
+							<li>
+								<div>
+									<div class="imgs"> <img src="images/chat03.jpg" /> </div>
+									<span><b>用微笑找幸福：</b>我收集的也缺少这个章节我收集的也缺少这个章节</span>
+								</div>
+								<p class="time">11月3日  11:03</p>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="chat_R">
+						
+						<div class="chat_T"></div>
+						<div class="chat_B"></div>
+						
+					</div>
+					
+					<div class="clear"></div>
+				</div>						
+			</div><!--wdxx_R-->						
+			<div class="clear"></div>
+		</div>
+<!--通用底部-->
+		<div class="footer">
+			<div class="line">
+				<p>联系我们</p>
+			</div>
+			<div class="footer_b">
+				<p>139 0293 3234</p>
+				<p>邮箱：service@gojoin.cn</p>
+				<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+			</div>
+		</div>
+
+
+
+<script>
+$('#Tmcselect01').input();
+
+</script>	
+	</body>
+</html>

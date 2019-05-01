@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>7_2_我的报销</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/7_Finance.css" />
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>
+		<script src="js/option.js"></script>
+				
+	</head>
+	<body>
+	<!--通用头部-->
+		<div class="header">
+			<div class="header_t">
+				<div class="header_tr wrapper">
+					<ul>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">我的行程</a></li>
+						<li>
+							<div class="sel-boxone sele_head" id="Tmcselect01">
+								<input for="label" type="text" readonly value="Ryan的个人中心">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header_b wrapper">
+				<div class="header_L">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" /></a>
+					</div>
+					<div class="addr">
+						<p>深圳</p>
+					</div>
+				</div>
+				<div class="header_R">
+					<div class="menu">
+						<ul>
+							<li><a href="#">活动</a></li>
+							<li><a href="#">场地</a></li>
+							<li><a href="#">专题</a></li>
+							<li><a href="#">专家</a></li>							
+							<div class="clear"></div>
+						</ul>
+						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="搜索" />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+	<!--主体内容-->
+	<h1 class="wrapper main_title">我的财务中心</h1>
+	<div class="wrapper main_tab_link">
+		<a href="7_1_Finance_1.html">我的订单</a>
+		<a href="7_2_wdbx.html" class="tab_cur">我的报销</a>
+		<a href="7_3_wdsj.html">我的收据</a>
+		<a href="7_4_wdfp.html">我的发票</a>
+	</div>
+<!--我的报销主体内容-->
+	<div class="mybx wrapper">
+		<div class="titul">
+			<span class="active">费用报销单</span>
+			<span>我的费用明细</span>
+			<span>我的开票信息</span>
+		</div>
+		<div class="costorder">
+			<!--费用报销单-->
+				<div class="costcont">
+					<div class="tit"><h1>费用报销单</h1></div>
+					<div class="costinput">
+						<div class="input01">
+							<span class="name">报销部门：</span>
+							<input type="text"/>
+						</div>
+						<div class="input02">
+							<span class="name">*开票时间：</span>
+							<input type="text"/>
+						</div>
+						<div class="input03">
+							<span class="name">*开票编号：</span>
+							<div class="pull_down01">
+								<div class="sel-boxone sele" id="Tmcselect02">
+									<input for="label" type="text" readonly value="0000000000">
+									<ul class="sel-list">
+										<li data="">效果图</li>
+										<li data="3">主材</li>
+										<li data="4">辅材</li>
+										<li data="5">软装</li>
+										<div class="clear"></div>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="costinput">
+						<div class="input01">
+							<span class="name">客户：</span>
+							<input type="text"/>
+							<a href="#" class="add">+添加客户</a>
+						</div>
+						<div class="input04">
+							<span class="name">项目名称：</span>
+							<input type="text"/>
+							<a href="#" class="add">+添加项目</a>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="table">
+						<table>
+							<tr>
+								<th rowspan="2" width="50px">NO.</th>
+								<th rowspan="2" width="275px">报销内容</th>
+								<th colspan="8" width="585px">金额</th>
+								<th rowspan="2" width="145px">备注</th>
+								<th rowspan="2" width="115px">操作</th>
+							</tr>
+							<tr>
+								<th>十 </th>
+								<th>万</th>
+								<th>千</th>
+								<th>百</th>
+								<th>十</th>
+								<th>元</th>
+								<th>角</th>
+								<th>分</th>
+							</tr>
+							<tr>
+								<td><p class="num">1</p></td>
+								<td></td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect03">
+											<input for="label" type="text" readonly value="￥">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect04">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect05">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect06">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect07">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect08">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect09">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect10">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td></td>
+								<td><p class="caozuo"><a href="#">+添加</a><a href="#">-删除</a></p></td>
+							</tr>
+							<tr>
+								<td><p class="num">2</p></td>
+								<td></td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect11">
+											<input for="label" type="text" readonly value="￥">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect12">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect13">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+
+													<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect14">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect15">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect16">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect17">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect18">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">2</li>
+												<li data="5">3</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td></td>
+								<td><p class="caozuo"><a href="#">+添加</a><a href="#">-删除</a></p></td>
+							</tr>
+							<tr>
+								<td><p class="num">3</p></td>
+								<td></td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect19">
+											<input for="label" type="text" readonly value="￥">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect20">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect21">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">1</li>
+												<li data="3">2</li>
+												<li data="4">3</li>
+												<li data="5">4</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect22">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect23">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect24">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect25">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect26">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td></td>
+								<td><p class="caozuo"><a href="#">+添加</a><a href="#">-删除</a></p></td>
+							</tr>
+							<tr>
+								<td><p class="num">4</p></td>
+								<td></td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect27">
+											<input for="label" type="text" readonly value="￥">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect28">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect29">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect44">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect30">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect31">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect32">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect33">
+											<input for="label" type="text" readonly value="0">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+								</td>
+								<td></td>
+								<td><p class="caozuo"><a href="#">+添加</a><a href="#">-删除</a></p></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><p class="count">小计：</p></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+					<div class="biaoxiaod">
+						<div class="biaoxiaod_L">
+							<div class="capital">
+								<span class="name title">金额大写：</span>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect34">
+										<input for="label" type="text" readonly value="零">
+										<ul class="sel-list">
+											<li data="">1</li>
+											<li data="3">2</li>
+											<li data="4">3</li>
+											<li data="5">4</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<span class="name">拾</span>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect35">
+										<input for="label" type="text" readonly value="零">
+										<ul class="sel-list">
+											<li data="">1</li>
+											<li data="3">2</li>
+											<li data="4">3</li>
+											<li data="5">4</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<span class="name">万</span>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect36">
+										<input for="label" type="text" readonly value="零">
+										<ul class="sel-list">
+											<li data="">1</li>
+											<li data="3">2</li>
+											<li data="4">3</li>
+											<li data="5">4</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<span class="name">仟</span>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect37">
+										<input for="label" type="text" readonly value="零">
+										<ul class="sel-list">
+											<li data="">1</li>
+											<li data="3">2</li>
+											<li data="4">3</li>
+											<li data="5">4</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<span class="name">佰</span>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect38">
+										<input for="label" type="text" readonly value="零">
+										<ul class="sel-list">
+											<li data="">1</li>
+											<li data="3">2</li>
+											<li data="4">3</li>
+											<li data="5">4</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<span class="name">拾</span>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect39">
+										<input for="label" type="text" readonly value="零">
+										<ul class="sel-list">
+											<li data="">1</li>
+											<li data="3">2</li>
+											<li data="4">3</li>
+											<li data="5">4</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<span class="name">元</span>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect40">
+										<input for="label" type="text" readonly value="零">
+										<ul class="sel-list">
+											<li data="">1</li>
+											<li data="3">2</li>
+											<li data="4">3</li>
+											<li data="5">4</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<span class="name">角</span>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect41">
+										<input for="label" type="text" readonly value="零">
+										<ul class="sel-list">
+											<li data="">1</li>
+											<li data="3">2</li>
+											<li data="4">3</li>
+											<li data="5">4</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<span class="name">分</span>
+								<div class="clear"></div>
+							</div>
+							<div class="capital">
+								<span class="name title">原借款金额：</span>
+								<span class="input05"><input type="text"/> </span>
+								<span class="name">元</span>
+								<span class="name title">原借款金额：</span>
+								<span class="input05"><input type="text"/> </span>
+								<span class="name">元</span>
+								<div class="clear"></div>
+							</div>
+							<div class="capital">
+								<span class="name title">领导审核：</span>
+								<div class="pull_down01">
+									<div class="sel-boxone sele" id="Tmcselect42">
+										<input for="label" type="text" readonly value="">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<a href="#" class="add">+添加审核人  <b>（设置默认人）</b></a>
+							</div>
+							<div class="capital">
+								<span class="name title">财务审核：</span>
+								<div class="pull_down01">
+									<div class="sel-boxone sele" id="Tmcselect43">
+										<input for="label" type="text" readonly value="">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<a href="#" class="add">+添加审核人  <b>（设置默认人）</b></a>
+							</div>
+
+
+							<div class="clear"></div>
+						</div>
+						<div class="biaoxiaod_R">
+							<div class="capital">
+								<span class="name title">总计：</span>
+								<span class="input05"><input type="text"/> </span>
+								<span class="name">元</span>
+								<div class="clear"></div>
+							</div>
+							<div class="capital">
+								<span class="name title">应补款金额：</span>
+								<span class="input05"><input type="text"/> </span>
+								<span class="name">元</span>
+								<div class="clear"></div>
+							</div>
+							<div class="capital">
+								<span class="name title">发票备注：</span>
+								<span class="input06"><input type="radio"/> </span>
+								<span class="remark">已提供</span>
+								<span class="input06"><input type="radio"/> </span>
+								<span class="remark">未提供</span>
+								<div class="clear"></div>
+							</div>
+							<div class="capital">
+								<span class="name title">应补款金额：</span>
+								<span class="input05"><input type="text"/> </span>
+								<a href="#" class="add">+修改</a>
+								<div class="clear"></div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			<!--我的费用明细-->
+				<div class="costcont" style="display: none;">
+					<div class="tit"><h1>我的费用明细</h1></div>
+					<div class="cost_ul">
+						<ul>
+							<li>
+								<span class="span01">部门：</span>
+								<input type="text" placeholder="产品部"/>
+							</li>
+							<li>
+								<span class="span02">课程/项目名称（或出差原因）：</span>
+								<input type="text" placeholder="广州XXX项目设计"/>
+							</li>
+							<li>
+								<span class="span01">项目经理：</span>
+								<input type="text" class="inp03" placeholder="XXX"/>
+							</li>
+							<li>
+								<span class="span01">顾问/讲师：</span>
+								<input type="text" placeholder="XXX"/>
+							</li>
+							<li>
+								<span class="span02">行程安排（查看行事历）：</span>
+								<input type="text" placeholder="5月30—7月8"/>
+							</li>
+							<li>
+								<span class="span01">报销人：</span>
+								<input type="text" class="inp03" placeholder="XXX"/>
+							</li>
+							<li>
+								<span class="span01">客户经理：</span>
+								<input type="text" placeholder="XXX"/>
+							</li>
+							<li>
+								<span class="span02">公司名称/授课对象：</span>
+								<input type="text" placeholder="XXX"/>
+							</li>
+							<li>
+								<span class="span01">填单日期：</span>
+								<input type="text" class="inp03" placeholder="2016/7/8"/>
+							</li>
+							<div class="clear"></div>
+						</ul>
+					</div>
+					<div class="detailtable">
+						<table>
+							<tr>
+								<th   rowspan="2">日期</th>
+								<th   rowspan="2">起点</th>
+								<th  rowspan="2">终点</th>
+								<th colspan="5">国内/国际交通费</th>
+								<th colspan="3">市内交通费</th>
+								<th rowspan="2">住宿费</th>
+								<th rowspan="2">餐费<br>（补贴）</th>
+								<th rowspan="2">查补</th>
+								<th rowspan="2">其他</th>
+								<th rowspan="2">金额<br>小计</th>
+								<th rowspan="2">出差<br>天数</th>
+								<th rowspan="2">餐补标准<br>（元/天）</th>
+								<th rowspan="2">发票编号<br>（可选）</th>
+								<th rowspan="2">匹配<br>项目</th>
+								<th rowspan="2">备注</th>
+							</tr>
+							<tr>
+								<th>大巴</th>
+								<th>高铁/火车</th>
+								<th>航班</th>
+								<th>的士/地铁</th>
+								<th>其他</th>
+								<th>公交/地铁</th>
+								<th>的士/租车</th>
+								<th>其他</th>
+							</tr>
+							<tr>
+								<td><p>2016/05/03</p></td>
+								<td><p>深圳火车北站</p></td>
+								<td><p>广州火车南站</p></td>
+								<td><p></p></td>
+								<td><p>74.5</p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p>74.5</p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p>广州XXXXX</p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p>2016/05/03</p></td>
+								<td><p>深圳火车北站</p></td>
+								<td><p>广州火车南站</p></td>
+								<td><p></p></td>
+								<td><p>99.5</p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p>750</p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p>849.5</p></td>
+								<td><p>5</p></td>
+								<td><p>150</p></td>
+								<td><p></p></td>
+								<td><p>广州XXXXX</p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p>2016/05/03</p></td>
+								<td><p>深圳火车北站</p></td>
+								<td><p>广州火车南站</p></td>
+								<td><p></p></td>
+								<td><p>99.5</p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p>750</p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p>849.5</p></td>
+								<td><p>5</p></td>
+								<td><p>150</p></td>
+								<td><p></p></td>
+								<td><p>广州XXXXX</p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p>2016/05/03</p></td>
+								<td><p>深圳火车北站</p></td>
+								<td><p>广州火车南站</p></td>
+								<td><p></p></td>
+								<td><p>99.5</p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p>750</p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p>849.5</p></td>
+								<td><p>5</p></td>
+								<td><p>150</p></td>
+								<td><p></p></td>
+								<td><p>广州XXXXX</p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<td colspan="3"><p class="count">报销项目金额合计：</p></td>
+
+								<td><p>69</p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p></p></td>
+								<td><p>合计：</p></td>
+								<td><p>2685.5</p></td>
+								<td><p></p></td>
+							</tr>
+							<tr>
+								<th colspan="22" class="countall">本单报销金额（大写）合计：</th>
+							</tr>
+
+							<tr class="detailinfo">
+								<td rowspan="2" class="info" colspan="2"><p><span>财务：</span></p></td>
+
+								<td  rowspan="2"  class="info" colspan="3"><p><span> 部门经理：</span></p></td>
+								<td rowspan="2"  class="info" colspan="3"><p><span>项目经理：</span></p></td>
+								<td rowspan="2"  class="info" colspan="3"><p><span>报销人：</span></p></td>
+								<td colspan="2"><p>借款金额填此框</p></td>
+								<td colspan="2"><p>0.00</p></td>
+								<td colspan="4"><p>此框正数金额
+									应为领款，负
+									数为还款</p></td>
+								<td colspan="2"><p></p></td>
+							</tr>
+							<tr class="detailinfo">
+								<td colspan="2"><p>差额填此框</p></td>
+								<td colspan="2"><p></p></td>
+								<td colspan="4"><p>领（还）款人</p></td>
+								<td colspan="2"><p></p></td>
+							</tr>
+						</table>
+					</div>
+					<div>
+					<div class="actual">
+						<p class="p1"><b>2685.5</b>实际结算金额：元 </p>
+						<div class="tablesec">
+							<span>项目分摊费用</span>
+							<div class="actualtable">
+								<table>
+									<tr>
+										<td><p>广州XX客户</p></td>
+										<td><p>2685.5</p></td>
+									</tr>
+									<tr>
+										<td><p>深圳XX客户</p></td>
+										<td><p>0.00</p></td>
+									</tr>
+									<tr>
+										<td><p></p></td>
+										<td><p>0.00</p></td>
+									</tr>
+									<tr>
+										<td><p>总计：</p></td>
+										<td><p>2685.5</p></td>
+									</tr>
+									<tr>
+										<th>结算状态：</th>
+										<th>提交</th>
+									</tr>
+								</table>
+							</div>
+
+						</div>
+					</div>
+					<div class="clear"></div>
+					</div>
+					<div class="btns">
+						<a href="#">保存</a>
+						<a href="#">提交</a>
+						<a href="#">取消</a>
+					</div>
+					<div class="clear"></div>
+				</div><!--costcont-->
+
+			<!--我的开票信息-->
+				<div class="costcont" style="display: none;">
+					<div class="caption"><h1>添加增值税专用发票信息</h1> </div>
+					<div><p class="comp"><input type="radio" id="comp"><label for="comp">设为默认的开票公司名称</label> </p><div class="clear"></div></div>
+					<div class="infotable">
+						<table>
+							<tr>
+								<td width="305px"><p class="tdtit">*公司名称（中文）：</p></td>
+								<td>
+									<div class="tdr">
+										<span class="inp1"><input type="text"></span>
+										<a href="#" class="add">+添加公司名称</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">*纳税人识别号：</p></td>
+								<td>
+									<div class="tdr">
+										<span class="inp2"><input type="text"></span>
+										<a href="#" class="add">+提交盖章的营业执照复印件</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">*开户行：</p></td>
+								<td>
+									<div class="tdr">
+										<div class="pull_down01">
+											<div class="sel-boxone sele" id="Tmcselect45">
+												<input for="label" type="text" readonly value="招商银行">
+												<ul class="sel-list">
+													<li data="">效果图</li>
+													<li data="3">主材</li>
+													<li data="4">辅材</li>
+													<li data="5">软装</li>
+													<div class="clear"></div>
+												</ul>
+											</div>
+										</div>
+										<span class="inp3"><input type="text"></span>
+										<a href="#" class="add">+添加银行</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">*账号：</p></td>
+								<td>
+									<div class="tdr">
+										<span class="inp1"><input type="text"></span>
+										<a href="#" class="add">+添加帐号</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">公司地址（中文）：</p></td>
+								<td>
+									<div class="tdr">
+										<span class="inp4"><input type="text"></span>
+										<a href="#" class="add">+添加地址</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">*公司收件地址（中文）：</p></td>
+								<td>
+									<div class="tdr">
+										<span class="inp5"><input type="text" placeholder="广东省  深圳市  南山区"></span>
+										<span class="inp3"><input type="text" placeholder="详细收件地址"></span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">*公司收件联系人：</p></td>
+								<td>
+									<div class="tdr">
+										<span class="inp1"><input type="text"></span>
+										<a href="#" class="add">+添加好友</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit">*联系人电话：</p></td>
+								<td>
+									<div class="tdr">
+										<span class="inp1"><input type="text"></span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="tdtit"> 公司传真：</p></td>
+								<td>
+									<div class="tdr">
+										<span class="inp1"><input type="text"></span>
+									</div>
+								</td>
+							</tr>
+						</table>
+						<p class="add">+添加其它账号</p>
+					</div>
+					<div class="btns">
+						<a href="#">保存</a>
+						<a href="#">提交</a>
+						<a href="#">取消</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+		</div><!--costorder-->
+	</div>
+<!--通用底部-->
+		<div class="footer">
+			<div class="line">
+				<p>联系我们</p>
+			</div>
+			<div class="footer_b">
+				<p>139 0293 3234</p>
+				<p>邮箱：service@gojoin.cn</p>
+				<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+			</div>
+		</div>
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+$('#Tmcselect03').input();
+$('#Tmcselect04').input();
+$('#Tmcselect05').input();
+$('#Tmcselect06').input();
+$('#Tmcselect07').input();
+$('#Tmcselect08').input();
+$('#Tmcselect09').input();
+$('#Tmcselect10').input();
+$('#Tmcselect11').input();
+$('#Tmcselect12').input();
+$('#Tmcselect13').input();
+$('#Tmcselect14').input();
+$('#Tmcselect15').input();
+$('#Tmcselect16').input();
+$('#Tmcselect17').input();
+$('#Tmcselect18').input();
+$('#Tmcselect19').input();
+$('#Tmcselect20').input();
+$('#Tmcselect21').input();
+$('#Tmcselect22').input();
+$('#Tmcselect23').input();
+$('#Tmcselect24').input();
+$('#Tmcselect25').input();
+$('#Tmcselect26').input();
+$('#Tmcselect27').input();
+$('#Tmcselect28').input();
+$('#Tmcselect29').input();
+$('#Tmcselect30').input();
+$('#Tmcselect31').input();
+$('#Tmcselect32').input();
+$('#Tmcselect33').input();
+$('#Tmcselect34').input();
+$('#Tmcselect35').input();
+$('#Tmcselect36').input();
+$('#Tmcselect37').input();
+$('#Tmcselect38').input();
+$('#Tmcselect39').input();
+$('#Tmcselect40').input();
+$('#Tmcselect41').input();
+$('#Tmcselect42').input();
+$('#Tmcselect43').input();
+$('#Tmcselect44').input();
+$('#Tmcselect45').input();
+$('#Tmcselect46').input();
+
+
+</script>
+	</body>
+</html>

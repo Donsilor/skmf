@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>8_3_01搜索引擎配置</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/8_configure.css" />		
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>		
+				
+	</head>
+	<body>
+	<!--通用头部-->
+		<div class="header">
+			<div class="header_t">
+				<div class="header_tr wrapper">
+					<ul>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">我的行程</a></li>
+						<li>
+							<div class="sel-boxone sele_head" id="Tmcselect01">
+								<input for="label" type="text" readonly value="Ryan的个人中心">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header_b wrapper">
+				<div class="header_L">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" /></a>
+					</div>
+					<div class="addr">
+						<p>深圳</p>
+					</div>
+				</div>
+				<div class="header_R">
+					<div class="menu">
+						<ul>
+							<li><a href="#">活动</a></li>
+							<li><a href="#">场地</a></li>
+							<li><a href="#">专题</a></li>
+							<li><a href="#">专家</a></li>							
+							<div class="clear"></div>
+						</ul>
+						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="搜索" />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+	<!--主体内容tit-->
+		<div class="templet wrapper">
+			<div class="templet_tit"><h1>搜索引擎配置</h1> </div>
+			<div class="btns">
+				<a href="8_3_01ssyqpz.html" class="active">活动搜索</a>
+				<a href="8_3_02ssyqpz.html">专家搜索</a>
+				<a href="8_3_03ssyqpz.html">场地搜索</a>
+				<a href="8_3_04ssyqpz.html">产品业务搜索</a>
+			</div>
+		</div>
+	<!--活动搜索-->
+		<div class="allsearch wrapper">
+			<div class="opts">
+				
+		<!--table-->
+				<div class="table">
+					<table>
+						<tr>
+							<td width="90px"><p class="tdtit">活动城市：</p></td>
+							<td>
+								<div class="pull_down01">
+									<div class="sel-boxone sele" id="Tmcselect02">
+										<input for="label" type="text" readonly value="全国">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">时间范围：</p></td>
+							<td>
+								<div class="time">
+									<div class="input01"><input type="text" placeholder="年/月/日" /> </div>
+									<div class="line">---</div>
+									<div class="input01"><input type="text" placeholder="年/月/日" /> </div>
+								</div>
+								<p class="range">不限  &emsp;一天内 &emsp;  一周内  &emsp; 一月内</p>
+								<div class="guanbi"><img src="images/kaiguan.fw.png" /> </div>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">活动名称：</p></td>
+							<td>
+								<div class="input02"><input type="text" placeholder="输入活动姓名关键词" /> </div>
+								<span class="guanbi02"><img src="images/kaiguan.fw.png" /> </span>
+								<p class="tdtit">*预定状态：</p>
+								<div class="pull_down01">
+									<div class="sel-boxone sele" id="Tmcselect03">
+										<input for="label" type="text" readonly value="可预订">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<div class="guanbi"><img src="images/kaiguan.fw.png" /> </div>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">讲师姓名：</p></td>
+							<td>
+								<div class="input02"><input type="text" placeholder="输入场地关键词" /> </div>
+								<span class="guanbi02"><img src="images/kaiguan.fw.png" /> </span>								
+							</td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">所属场地：</p></td>
+							<td>
+								<div class="input02"><input type="text" placeholder="输入讲师姓名关键词" /> </div>
+								<span class="guanbi02"><img src="images/kaiguan.fw.png" /> </span>								
+							</td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">活动类型：</p></td>
+							<td>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect04">
+										<input for="label" type="text" readonly value="主题沙龙">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<span class="guanbi02"><img src="images/kaiguan.fw.png" /> </span>	
+								<div class=" belongs">
+								<p class="tdtit">*所属机构：</p>
+								<div class="input02 jigou"><input type="text"/> </div>
+								<span class="guanbi02"><img src="images/kaiguan.fw.png" /> </span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">行业类别：</p></td>
+							<td>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect05">
+										<input for="label" type="text" readonly value="行业分类">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<span class="guanbi02"><img src="images/kaiguan.fw.png" /> </span>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">专业类别：</p></td>
+							<td>
+								<div class="pull_down02">
+									<div class="sel-boxone sele" id="Tmcselect06">
+										<input for="label" type="text" readonly value="专业分类">
+										<ul class="sel-list">
+											<li data="">效果图</li>
+											<li data="3">主材</li>
+											<li data="4">辅材</li>
+											<li data="5">软装</li>
+											<div class="clear"></div>
+										</ul>
+									</div>
+								</div>
+								<span class="guanbi02"><img src="images/kaiguan.fw.png" /> </span>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="tdtit">预付定金：</p></td>
+							<td>
+								<div class="pull_down02">
+										<div class="sel-boxone sele" id="Tmcselect07">
+											<input for="label" type="text" readonly value="需定金">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+									
+									<div class="pull_down01">
+										<div class="sel-boxone sele" id="Tmcselect08">
+											<input for="label" type="text" readonly value="5%">
+											<ul class="sel-list">
+												<li data="">效果图</li>
+												<li data="3">主材</li>
+												<li data="4">辅材</li>
+												<li data="5">软装</li>
+												<div class="clear"></div>
+											</ul>
+										</div>
+									</div>
+									<span class="guanbi02"><img src="images/kaiguan.fw.png" /> </span>
+								</td>
+						</tr>
+					</table>
+				</div>
+				
+				<div class="searchyq"><a href="#" class="query">查询</a> <a href="#" class="location">地图定位搜索</a></div>
+			</div>
+		</div>
+
+
+
+
+
+
+ <!--通用底部-->
+		<div class="footer">
+			<div class="line">
+				<p>联系我们</p>
+			</div>
+			<div class="footer_b">
+				<p>139 0293 3234</p>
+				<p>邮箱：service@gojoin.cn</p>
+				<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+			</div>
+		</div>
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+$('#Tmcselect03').input();
+$('#Tmcselect04').input();
+$('#Tmcselect05').input();
+$('#Tmcselect06').input();
+$('#Tmcselect07').input();
+$('#Tmcselect08').input();
+</script>
+	</body>
+</html>

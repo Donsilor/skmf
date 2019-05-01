@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的专家认证</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/5_wdzjk.css" />
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>
+		<script src="js/option.js"></script>
+	</head>
+	<body>
+	<!--通用头部-->
+		<div class="header">
+			<div class="header_t">
+				<div class="header_tr wrapper">
+					<ul>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">我的行程</a></li>
+						<li>
+							<div class="sel-boxone sele_head" id="Tmcselect01">
+								<input for="label" type="text" readonly value="Ryan的个人中心">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header_b wrapper">
+				<div class="header_L">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" /></a>
+					</div>
+					<div class="addr">
+						<p>深圳</p>
+					</div>
+				</div>
+				<div class="header_R">
+					<div class="menu">
+						<ul>
+							<li><a href="#">活动</a></li>
+							<li><a href="#">场地</a></li>
+							<li><a href="#">专题</a></li>
+							<li><a href="#">专家</a></li>							
+							<div class="clear"></div>
+						</ul>
+						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="搜索" />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+	
+	<!--我的专家认证-->
+		<div class="zjrz_main wrapper">
+			<div class="vid_chos">
+				<a href="#" class="curr">个人基本信息</a>
+				<a href="#">个人专业信息</a>
+				<a href="#">个人专业资质</a>
+				<a href="#">个人职业经历</a>
+			</div>
+			<div class="zjrz_table">
+				<div class="zjrz_table01">
+					<div class="jbxx">
+				<table>
+					<tr>
+						<td><p class="tdtit">姓名：</p></td>
+						<td>
+							<div class="name"><input type="text" /> </div>
+						</td>
+					</tr>
+					<tr>
+						<td><p class="tdtit">性别：</p></td>
+						<td>
+							<div class="sex_div">
+								<span class="sex_inp"><input type="radio" name="sex" /></span><span class="text">男</span> 
+								<span class="sex_inp"><input type="radio" name="sex" /></span><span class="text">女</span>
+							</div>							
+						</td>
+					</tr>
+					<tr>
+						<td><p class="tdtit">籍贯：</p></td>
+						<td>
+							<div class="input1">
+								<div class="sel-boxone sele_head" id="Tmcselect02">
+									<input for="label" type="text" readonly value="汉族">
+									<ul class="sel-list">
+										<li data="">苗族</li>
+										<li data="3">傣族</li>
+										<li data="4">彝族</li>
+										<li data="5">蒙古族</li>
+										<div class="clear"></div>
+									</ul>
+								</div>
+							</div>							
+						</td>
+					</tr>
+					<tr>
+						<td><p class="tdtit">身份证号码：</p></td>
+						<td>
+							<div class="idnum"><input type="text" /></div>							
+						</td>
+					</tr>
+					<tr>
+						<td><p class="tdtit">常驻城市：</p></td>
+						<td>
+							<div class="addr">
+								<div class="sel-boxone sele_head" id="Tmcselect03">
+									<input for="label" type="text" readonly value="所在地：中国，广东，深圳，南山区">
+									<ul class="sel-list">
+										<li data="">苗族</li>
+										<li data="3">傣族</li>
+										<li data="4">彝族</li>
+										<li data="5">蒙古族</li>
+										<div class="clear"></div>
+									</ul>
+								</div>
+							</div>
+							<div class="chose"><input type="text" placeholder="详细地址（可选）"/> </div>
+						</td>
+					</tr>
+					<tr>
+						<td><p class="tdtit">个人免冠照片：</p></td>
+						<td>
+							<div class=""><img src="images/gerenzhao.jpg" /></div>							
+						</td>
+					</tr>
+					<tr>
+						<td><p class="tdtit">身份证件：</p></td>
+						<td>
+							<div class="idpic"><a href="#"><img src="images/idpic.jpg" /></a></div>
+							<p class="idtip">（正反面各一张）</p>
+							
+						</td>
+					</tr>
+					<tr>
+						<td><p class="tdtit">个人持证半身照：</p></td>
+						<td>
+							<div class=""><a href="#"><img src="images/idpic.jpg" /></a></div>							
+						</td>
+					</tr>					
+				</table>
+				<div class="btns">
+					<a href="#">保存</a>
+					<a href="#">取消</a>
+				</div>
+				</div>
+			</div>
+				
+				<div class="zjrz_table01" style="display: none;">
+					<div class="zyxx">
+						<div class="tit">
+							<p class="text">2005.09-2009.06 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 哈尔滨工业大学&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 机械工程学院&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;         导弹研究</p>
+							<p class="add"><a href="#"><img src="images/5_3_pan.png" /> </a> <a href="#"><img src="images/5_3_remove.png" /> </a> <span class="addzy"><a href="#">+添加专业</a></span></p>
+							<div class="clear"></div>
+						</div>
+						<div class="table">
+							<table>
+								<tr>
+									<td><p class="tdtit">最高学历：</p></td>
+									<td>
+										<div class="input1">
+										<div class="sel-boxone sele_head" id="Tmcselect04">
+											<input for="label" type="text" readonly value="本科">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">学位：</p></td>
+									<td>
+										<div class="input1">
+										<div class="sel-boxone sele_head" id="Tmcselect05">
+											<input for="label" type="text" readonly value="博士">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">毕业院校：</p></td>
+									<td>
+										<div class="input1">
+										<div class="sel-boxone sele_head" id="Tmcselect06">
+											<input for="label" type="text" readonly value="哈工大">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+										<a href="#" class="tianjia">+选择学校</a>
+									</td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">专业：</p></td>
+									<td>
+										<div class="input1">
+										<div class="sel-boxone sele_head" id="Tmcselect07">
+											<input for="label" type="text" readonly value="工商管理">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+										<a href="#" class="tianjia">+选择专业</a>
+									</td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">学习类型：</p></td>
+									<td>
+										<div class="input1">
+										<div class="sel-boxone sele_head" id="Tmcselect08">
+											<input for="label" type="text" readonly value="全日制">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">学习类型：</p></td>
+									<td>
+										<div class="input2">
+										<div class="sel-boxone sele_head" id="Tmcselect09">
+											<input for="label" type="text" readonly value="2011">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+										<div class="input2">
+										<div class="sel-boxone sele_head" id="Tmcselect10">
+											<input for="label" type="text" readonly value="9">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+									</td>
+								</tr>
+								
+								<tr>
+									<td><p class="tdtit">学习类型：</p></td>
+									<td>
+										<div class="input2">
+										<div class="sel-boxone sele_head" id="Tmcselect11">
+											<input for="label" type="text" readonly value="2015">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+										<div class="input2">
+										<div class="sel-boxone sele_head" id="Tmcselect12">
+											<input for="label" type="text" readonly value="6">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div class="btns">
+							<a href="#">保存</a>
+							<a href="#">添加新专业</a>
+							<a href="#">取消</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="zjrz_table01" style="display: none;">
+					<div class="zyzz">
+						<div class="tit">							
+							<div><span>硕士研究生毕业证 </span> <p class="edit"><a href="#"><img src="images/5_3_pan.png" /> </a><img src="images/5_3_remove.png" /> </a></p></div>
+							<div><span>PMP资格证书</span> <p class="edit"><a href="#"><img src="images/5_3_pan.png" /> </a><img src="images/5_3_remove.png" /> </a></p></div>
+							<a href="#">+添加证书</a>								
+						</div>
+						<div class="table">
+							<table>
+								<tr>
+									<td><p class="tdtit">证书类别：</p></td>
+									<td>
+										<div class="input1">
+										<div class="sel-boxone sele_head" id="Tmcselect13">
+											<input for="label" type="text" readonly value="毕业证">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">证书名称：</p></td>
+									<td><div class="input2"><input type="text" /> </div></td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">资格等级：</p></td>
+									<td>
+										<div class="input1">
+										<div class="sel-boxone sele_head" id="Tmcselect14">
+											<input for="label" type="text" readonly value="高级">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">证书编号：</p></td>
+									<td><div class="input2"><input type="text" /> </div></td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">颁发时间：</p></td>
+									<td><div class="input3"><input type="text" /> </div></td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">颁发机构：</p></td>
+									<td><div class="input2"><input type="text" /> </div></td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">上传附件：</p></td>
+									<td>
+										<div><img src="images/idpic.jpg" /> </div>
+										<p class="public"><input type="radio" /><span>公开附件</span> </p>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div class="btns">
+							<a href="#">提交</a>
+							<a href="#">取消</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="zjrz_table01" style="display: none;">
+					<div class="zyjl">
+						<div class="tit">
+							<div class="tit01">
+								<span class="span01">2010年2月-2015年6月，XX公司，XXX部门，担任XXXX总监职位</span>
+								<span class="span02">
+									<a href="#"><img src="images/5_3_icon01.png" /> </a>
+									<a href="#"><img src="images/5_3_icon02.png" /> </a> 
+									<a href="#"><img src="images/5_3_icon03.png" /> </a> 
+									<a href="#"><img src="images/5_3_icon04.png" /> </a> 
+									<a href="#"><img src="images/5_3_icon05.png" /> </a> 
+									<a href="#"><img src="images/5_3_icon06.png" /> </a> 
+									<a href="#"><img src="images/5_3_icon07.png" /> </a> 
+								</span>
+								<span class="span03">
+									<a href="#"><img src="images/5_3_pan.png" /> </a>
+									<a href="#"><img src="images/5_3_remove.png" /> </a>
+								</span>
+							</div>
+							<div class="tit01">
+								<span class="span01">2010年2月-2015年6月，XX公司，XXX部门，担任XXXX总监职位</span>
+								<span class="span02">
+									<a href="#"><img src="images/5_3_icon01.png" /> </a>
+									<a href="#"><img src="images/5_3_icon02.png" /> </a> 
+									<a href="#"><img src="images/5_3_icon03.png" /> </a> 
+									<a href="#"><img src="images/5_3_icon04.png" /> </a> 
+									<a href="#"><img src="images/5_3_icon05.png" /> </a> 
+									<a href="#"><img src="images/5_3_icon06.png" /> </a> 
+									<a href="#"><img src="images/5_3_icon07.png" /> </a> 
+								</span>
+								<span class="span03">
+									<a href="#"><img src="images/5_3_pan.png" /> </a>
+									<a href="#"><img src="images/5_3_remove.png" /> </a>
+								</span>
+							</div>
+							<div class="tit02"><a href="#">+添加经历</a></div>
+						</div>
+						
+						<div class="table">
+							<table>
+								<tr>
+									<td><p class="tdtit">起止年月：</p></td>
+									<td colspan="3">
+										<div class="input1">
+										<div class="sel-boxone sele_head" id="Tmcselect15">
+											<input for="label" type="text" readonly value="2015">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+										<div class="input1">
+										<div class="sel-boxone sele_head" id="Tmcselect16">
+											<input for="label" type="text" readonly value="6">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+										<div class="line">——</div>
+										<div class="input1">
+										<div class="sel-boxone sele_head" id="Tmcselect17">
+											<input for="label" type="text" readonly value="2015">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+										<div class="input1">
+										<div class="sel-boxone sele_head" id="Tmcselect18">
+											<input for="label" type="text" readonly value="6">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">所属行业：</p></td>
+									<td colspan="3">
+										<div class="input2">
+										<div class="sel-boxone sele_head" id="Tmcselect19">
+											<input for="label" type="text" readonly value="金融">
+											<ul class="sel-list">
+												<li data="">专科</li>
+												<li data="3">高中</li>
+												<li data="4">小学</li>												
+												<div class="clear"></div>
+											</ul>
+										</div>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">企业名称：</p></td>
+									<td><div class="input3"><input type="text" /></div></td>
+									<td><p class="tdtit"> 所属部门：</p></td>
+									<td><div class="input3"><input type="text" /></div></td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">最高任职名称：</p></td>
+									<td><div class="input3"><input type="text" /></div></td>
+									<td><p class="tdtit">直接下属人数：</p></td>
+									<td><div class="input3"><input type="text" /></div></td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">关键职位概述：</p></td>
+									<td colspan="3"><div class="textarea"><input type="text" /></div></td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">关键能力概述：</p></td>
+									<td colspan="3"><div class="textarea"><input type="text" /></div></td>
+								</tr>
+								<tr>
+									<td><p class="tdtit">关键成果描述：</p></td>
+									<td colspan="3"><div class="textarea"><input type="text" /></div></td>
+								</tr>
+							</table>
+								
+						</div>
+						
+						<div class="btns">
+							<a href="#">提交</a>
+							<a href="#">取消</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--通用底部-->
+	<div class="footer">
+		<div class="line">
+			<p>联系我们</p>
+		</div>
+		<div class="footer_b">
+			<p>139 0293 3234</p>
+			<p>邮箱：service@gojoin.cn</p>
+			<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+		</div>
+	</div>		
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+$('#Tmcselect03').input();
+$('#Tmcselect04').input();
+$('#Tmcselect05').input();
+$('#Tmcselect06').input();
+$('#Tmcselect07').input();
+$('#Tmcselect08').input();
+$('#Tmcselect09').input();
+$('#Tmcselect10').input();
+$('#Tmcselect11').input();
+$('#Tmcselect12').input();
+$('#Tmcselect13').input();
+$('#Tmcselect14').input();
+$('#Tmcselect15').input();
+$('#Tmcselect16').input();
+$('#Tmcselect17').input();
+$('#Tmcselect18').input();
+$('#Tmcselect19').input();
+</script>
+	</body>
+</html>

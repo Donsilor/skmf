@@ -1,0 +1,84 @@
+/*主体*/
+.index_main .index_tit{height: 90px;}
+.index_main .index_tit .cjhd{width: 170px;height: 32px;border: 1px solid #999999;border-radius: 5px;font-size: 16px;color: #656766;text-align: center;
+line-height: 32px;float: left;margin-top: 29px;}
+.index_main .index_tit .tit_ul{float: left;margin-left: 75px;}
+/*下拉*/
+.index_main .index_tit .tit_ul .lia{float: left;width: 125px;height: 32px;border: 1px solid #999999;border-radius:5px;padding-left: 10px;
+line-height: 32px;margin-top: 29px;margin-right: 20px;}
+.index_main .index_tit .tit_ul li input{width: 100%;height: 30px;border: none;outline: none;background: url(../images/down.png) no-repeat 80px;
+line-height: 30px;color: #656766;font-size: 14px;cursor: pointer}
+.sele{position: relative;line-height: 24px;}
+.sele .sel-list{background: #fff;position: absolute; width: 125px; top: 28px; left: -11px;border: 1px solid #999999;border-top: none;}
+.sele .sel-list li{height: 30px;line-height: 30px;cursor: pointer;color: #656766;font-size: 14px;padding-left: 10px;}
+.sele .sel-list li:hover{color: #fff;background: #008fe7;}
+.sele .sel-list{display: none;z-index: 99;}		
+/*下拉*/
+.index_main .index_tit .date{width: 90px;height: 90px;border-radius: 50%;float: right;border: 1px solid #ccc;text-align: center;}
+.index_main .index_tit .date p{font-size: 10px;color: #F29239;background: url(../images/date_down.png) no-repeat 70px 23px;padding-top: 20px;}
+.index_main .index_tit .date b{display: block;}
+.index_main .index_tit .date span{color: #333333;font-size: 12px;text-align: center;background: url(../images/addr_down.png) no-repeat 65px;
+display: inline-block;width: 90px;}
+
+/*行事历底部*/
+.course .course_box{height: 145px;width: 1400px;border: 1px solid #ccc;border-top: none;}
+.course .course_box .mrxc{width: 170px;height: 35px;border: 1px solid #999999;border-radius: 5px;font-size: 16px;padding-left: 40px;
+float: left;margin-top: 45px;margin-left: 15px;}	
+/*下拉*/											
+.course .course_box .mrxc .sele1 input{width: 100%;height: 33px;border: none;outline: none;background: url(../images/down.png) no-repeat 80px;
+line-height: 33px;color: #656766;font-size: 14px;}
+.sele1{position: relative;}
+.sele1 .sel-list{background: #fff;position: absolute; width: 170px; top: 28px; left: -41px;border: 1px solid #999999;border-top: none;}
+.sele1 .sel-list li{height: 30px;line-height: 30px;cursor: pointer;color: #656766;font-size: 14px;padding-left: 10px;}
+.sele1 .sel-list li:hover{color: #fff;background: #008fe7;}
+.sele1 .sel-list{display: none;z-index: 99;}
+/*下拉*/
+.course .course_box .course_ul{float: right;padding-top: 47px;}
+.course .course_box .course_ul li{float: left;width: 125px;height: 35px;border: 1px solid #999999;border-radius:5px;text-align: center;
+line-height: 33px;margin-right: 20px;}
+.course .course_box .course_ul li a{color: #656766;}
+.course .course_box .course_page{padding-top: 15px;width: 135px;margin: auto;clear: both;}
+.course .course_box .course_page a{display: inline-block;width: 18px;height: 18px;font-size: 12px; border-radius: 50%;background: #999999;color: #fff;text-align: center;line-height: 18px;}
+.course .course_box .course_page .cur{background: #EB4F37;}
+.course .course_box .course_page a:hover{background: #EB4F37;}
+
+
+/*首页主体内容*/
+/*活动场地*/
+.huodcd_main .main_tit h3{background: url(../images/huod10.png) no-repeat 20px;}
+.huodcd_main{background: #FFFAF3;margin-top: 15px;}
+.huodcd_main .huodcd_cont{padding: 25px 0 20px 0;border-bottom: 1px solid #FF9900;}
+.huodcd_main .huodcd_cont:last-child{border-bottom: none;}
+.huodcd_main .huodcd_cont .pic{width: 285px;float: left;padding-left: 10px;}
+.huodcd_main .huodcd_cont .pic img{width: 275px;height: 185px;}
+.huodcd_main .huodcd_cont .text{width: 610px;float: left; padding-left: 10px;}
+.huodcd_main .huodcd_cont .text h3{font-size:16px;color: #FF9900;padding-top: 10px;height: 30px;}
+.huodcd_main .huodcd_cont .text .text1{height: 60px;font-size: 16px;color: #333333;}
+.huodcd_main .huodcd_cont .text .text1 p{float: left;margin-right: 20px;padding-left: 30px;line-height: 65px;}
+.huodcd_main .huodcd_cont .text .text1 a{color: #333333;}
+.huodcd_main .huodcd_cont .text .text1 .name{background: url(../images/huod02.png) no-repeat left;}
+.huodcd_main .huodcd_cont .text .text1 .time{background: url(../images/huod03.png) no-repeat left;}
+.huodcd_main .huodcd_cont .text .text1 .addr{background: url(../images/huod04.png) no-repeat left;}
+.huodcd_main .huodcd_cont .text .text2{color: #333333;font-size: 16px;clear: both;}
+.huodcd_main .huodcd_cont .huodcd_r{width: 260px;float: right; margin-left: 20px;}
+.huodcd_main .huodcd_cont .huodcd_r .huodcd_rt{height: 30px;padding-top: 10px;}
+.huodcd_main .huodcd_cont .huodcd_r .huodcd_rt a{display:inline-block;height: 26px;width: 26px;}
+.huodcd_main .huodcd_cont .huodcd_r .huodcd_rc{height: 60px;line-height: 60px;background: url(../images/huod09.png) no-repeat 215px;font-size: 16px;text-align: right;padding-right: 60px;}
+.huodcd_main .huodcd_cont .huodcd_r .huodcd_rc span{color: #FF6633;display: inline-block;padding-right: 20px;}
+.huodcd_main .huodcd_cont .huodcd_r .huodcd_rb{width: 100px;height: 30px;text-align: center;line-height: 30px;background: #FF9900;border-radius: 5px;margin-top: 10px;}
+.huodcd_main .huodcd_cont .huodcd_r .huodcd_rb a{font-size: 16px;color: #fff;font-weight: bold;}
+/*热门的专家*/
+.remzj_main .main_tit h3{background: url(../images/remzj.png) no-repeat 20px;}
+.remzj_main{margin-top: 25px;background:#FFF3EF;height: 510px;}
+.remzj_main .remzj_banner{padding-top: 25px;}
+.remzj_main .remzj_banner .left{width: 90px;float: left;padding: 82px 20px;}
+.remzj_main .remzj_banner .left img{width: 50px;height: 52px;}
+.remzj_main .remzj_banner .right img{width: 50px;height: 52px;}
+.remzj_main .remzj_banner .right{width: 90px;float: right;padding: 82px 20px;}
+.remzj_main .remzj_banner .remen_ul{float: left;width: 1020px;}
+.remzj_main .remzj_banner .remen_ul li{float: left; width: 215px;margin: 0 20px;}
+.remzj_main .remzj_banner .remen_ul li a{display: block;}
+.remzj_main .remzj_banner .remen_ul img{width: 215px;height: 216px;}
+.remzj_main .remzj_banner .remen_ul li .text p{font-size: 16px;color: #333333;line-height: 30px;}
+.remzj_main .remzj_banner .remen_ul li .text p span{color: #FF6D3D;display: inline-block;letter-spacing: 3px;font-size: 20px;}
+.remzj_main .remzj_banner .remen_ul li .text p a{color: #FF6D3D;display: inline-block;float: right;}

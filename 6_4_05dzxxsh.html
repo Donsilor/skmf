@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>发布场地 地图显示</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/6_wdcdzx.css" />
+		<script src="js/jquery-1.8.3.min.js"></script> 
+		<script src="js/accside.js"></script>
+	</head>
+	<body>
+	<!--通用头部-->
+		<div class="header">
+			<div class="header_t">
+				<div class="header_tr wrapper">
+					<ul>
+						<li><a href="#">APP下载</a></li>
+						<li><a href="#">我的行程</a></li>
+						<li>
+							<div class="sel-boxone sele_head" id="Tmcselect01">
+								<input for="label" type="text" readonly value="Ryan的个人中心">
+								<ul class="sel-list">
+									<li data="">效果图</li>
+									<li data="3">主材</li>
+									<li data="4">辅材</li>
+									<li data="5">软装</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="header_b wrapper">
+				<div class="header_L">
+					<div class="logo">
+						<a href="#"><img src="images/logo.jpg" /></a>
+					</div>
+					<div class="addr">
+						<p>深圳</p>
+					</div>
+				</div>
+				<div class="header_R">
+					<div class="menu">
+						<ul>
+							<li><a href="#">活动</a></li>
+							<li><a href="#">场地</a></li>
+							<li><a href="#">专题</a></li>
+							<li><a href="#">专家</a></li>							
+							<div class="clear"></div>
+						</ul>
+						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="搜索" />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>			
+		</div>
+	<!--主体标题-->
+		<div class="fbcd wrapper">
+			<div class="fbcd_tit"><h1>发布场地</h1></div>
+			<div class="optli">
+				<ul>
+					<li><a href="6_4_01fdzxxsh.html">基本信息</a></li>
+					<li><a href="6_4_02dzxxsh.html">设备信息</a></li>
+					<li><a href="6_4_03dzxxsh.html">联系方式</a></li>
+					<li><a href="6_4_04dzxxsh.html">周边信息</a></li>
+					<li class="active"><a href="6_4_05dzxxsh.html">地图显示</a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+	<!--联系方式主体-->
+		<div class="fbcdwrap wrapper">
+			<div class="dtxs">
+				<div class="pic"><img src="images/map.jpg"/></div>
+				<div class="addrch">
+					<div class="addrch_L">地址选择：</div>
+					<div class="addrch_R">
+						<div class="ul">
+						<ul>
+							<li><span><input type="radio" name="addr" id="addr1"/></span><label for="addr1">A地址</label></li>
+							<li><span><input type="radio" name="addr" id="addr2"/></span><label for="addr2">B地址</label></li>
+							<li><span><input type="radio" name="addr" id="addr3"/></span><label for="addr3">C地址</label></li>
+							<li><span><input type="radio" name="addr" id="addr4"/></span><label for="addr4">D地址</label></li>
+							<li><span><input type="radio" name="addr" id="addr5"/></span><label for="addr5">E地址</label></li>
+							<li><span><input type="radio" name="addr" id="addr6"/></span><label for="addr6">F地址</label></li>
+							<li><span><input type="radio" name="addr" id="addr7"/></span><label for="addr7">G地址</label></li>
+							<div class="clear"></div>
+						</ul>
+						</div>
+						<div class="custom">
+							<span><input type="radio" name="addr" id="addr8"/></span><label for="addr8">自定义</label>
+							<div class="input01"><input type="text" placeholder="输入详细地址"/> </div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		
+			<div class="btns">
+					<a href="#">提交</a>
+			</div>
+		</div>
+<!--通用底部-->
+		<div class="footer">
+			<div class="line">
+				<p>联系我们</p>
+			</div>
+			<div class="footer_b">
+				<p>139 0293 3234</p>
+				<p>邮箱：service@gojoin.cn</p>
+				<p>Copyright 2013-2016     时空魔方（深圳）教育科技有限公司    粤ICP备13072124号-1</p>	
+			</div>
+		</div>
+<script>
+$('#Tmcselect01').input();
+</script>
+	</body>
+</html>
